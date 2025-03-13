@@ -22,19 +22,8 @@
 #  number_educ: 0
 #  education1:
 
-
-- name: Youngil Shin
-  photo: Youngil.jpg
-  info: Undergraduate Student
-#  email: ssojungan@gmail.com
-
 - name: Hyunjee Song
   photo: Hyunjee.jpg
-  info: Undergraduate Student
-#  email: ssojungan@gmail.com
-
-- name: Heedo Lee
-  photo: Heedo.jpg
   info: Undergraduate Student
 #  email: ssojungan@gmail.com
 
