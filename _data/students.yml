@@ -26,43 +26,44 @@
 - name: Sojung An
   photo: Sojung.jpg
   info: PhD Student
-#  email: ssojungan@gmail.com
+  email: sojungan@korea.ac.kr
 
-- name: Donghee Kim
+- name: Dong-Hee Kim
   photo: Donghee.jpg
   info: PhD Student
+  email: dongheekim@korea.ac.kr
 
 - name: Yongwoo Kim
   photo: Yongwoo.jpg
   info: MS/PhD Student
-#  email: ssojungan@gmail.com
+  email: yongwookim@korea.ac.kr
 
 - name: Seonwoo Choi
   photo: Seonwoo.jpg
   info: MS/PhD Student
+  email: doldol9080@korea.ac.kr
 
 - name: Jungmyung Wi
   photo: Jungmyung.png
   info: MS Student
-#  email: ssojungan@gmail.com
+  email: wjm333@korea.ac.kr
 
 - name: Dujin Lee
   photo: Dujin.jpg
   info: MS Student
-#  email: ssojungan@gmail.com
+  email: ldj0305@korea.ac.kr
 
 - name: Hyunsoo Kim
   photo: Hyunsoo.jpg
   info: MS Student
-
+  email: climba@korea.ac.kr
+  
 - name: Hyunbum Cho
   photo: Hyunbum.jpg
   info: MS Student
-
-- name: Yeongil Shin
-  photo: Yeongil.jpg
-  info: BS/MS Student
+  email: hbcho99@korea.ac.kr
 
 - name: Heedo Lee
   photo: Heedo.jpg
   info: BS/MS Student
+  email: heedo2@korea.ac.kr
