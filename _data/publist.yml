@@ -1,3 +1,27 @@
+- title: "ZIUM: Zero-Shot Intent-Aware Adversarial Attack on Unlearned Models"
+  authors: Hyun Jun Yook, Ga San Jhun, Cho Jae Hyun, Min Jeon, Donghyun Kim, Tae Hyung Kim, Youn Kyu Lee
+  link:
+    url: 
+    display: ICCV 2025
+  highlight: 0
+  year: 2025
+
+- title: "MA-CIR: A Multimodal Arithmetic Benchmark for Composed Image Retrieval"
+  authors: Jaeseok Byun, Young Kyun Jang, Seokhyeon Jeong, Donghyun Kim\*, Taesup Moon\*
+  link:
+    url: 
+    display: ICCV 2025
+  highlight: 0
+  year: 2025
+
+- title: "CaptionSmiths: Flexibly Controlling Language Pattern in Image Captioning"
+  authors: Kuniaki Saito, Donghyun Kim, Kwanyong Park, Atsushi Hashimoto, Yoshitaka Ushiku 
+  link:
+    url: 
+    display: ICCV 2025
+  highlight: 0
+  year: 2025
+
 - title: "Difference Inversion: Interpolate and Isolate the Difference with Token Consistency for Image Analogy Generation"
   authors: Hyunsoo Kim, Donghyun Kim\*, Suhyun Kim\*
   link:
