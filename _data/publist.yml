@@ -1,7 +1,39 @@
+- title: "Learning Compositionality from Multifaceted Synthetic Data for Language-based Object Detection"
+  authors: Kwanyong Park, Sojung An, Yong Jae Lee, Donghyun Kim
+  link:
+    url: ""
+    display: International Journal of Computer Vision 2025 (JCR IF Top 10%)
+  highlight: 0
+  year: 2025
+
+- title: "Hierarchical Entailment Representations for Linguistic Compositionality in Language-based Object Detection"
+  authors: Sojung An, Kwanyong Park, Yong Jae Lee, Donghyun Kim
+  link:
+    url: ""
+    display: ICCV 2025 Workshop on "MMFM4: The 4th Workshop on What is Next in Multimodal Foundation Models?"
+  highlight: 0
+  year: 2025
+
+- title: "LoRA-Loop: Closing the Synthetic Replay Cycle for Continual VLM Learning"
+  authors: Kaihong Wang, Donghyun Kim, Margrit Betke
+  link:
+    url: ""
+    display: ICCV 2025 Workshop on "The 4th DataCV Workshop and Challenge"
+  highlight: 0
+  year: 2025
+
+- title: "SynRES: Towards Referring Expression Segmentation in the Wild via Synthetic Data"
+  authors: Dong-Hee Kim, Hyunjee Song, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2505.17695
+    display: ICCV 2025 Workshop on "The 4th DataCV Workshop and Challenge"
+  highlight: 0
+  year: 2025
+
 - title: "ZIUM: Zero-Shot Intent-Aware Adversarial Attack on Unlearned Models"
   authors: Hyun Jun Yook, Ga San Jhun, Cho Jae Hyun, Min Jeon, Donghyun Kim, Tae Hyung Kim, Youn Kyu Lee
   link:
-    url: 
+    url: ""
     display: ICCV 2025
   highlight: 0
   year: 2025
@@ -9,7 +41,7 @@
 - title: "MA-CIR: A Multimodal Arithmetic Benchmark for Composed Image Retrieval"
   authors: Jaeseok Byun, Young Kyun Jang, Seokhyeon Jeong, Donghyun Kim\*, Taesup Moon\*
   link:
-    url: 
+    url: ""
     display: ICCV 2025
   highlight: 0
   year: 2025
@@ -17,7 +49,7 @@
 - title: "CaptionSmiths: Flexibly Controlling Language Pattern in Image Captioning"
   authors: Kuniaki Saito, Donghyun Kim, Kwanyong Park, Atsushi Hashimoto, Yoshitaka Ushiku 
   link:
-    url: 
+    url: https://arxiv.org/pdf/2507.01409
     display: ICCV 2025
   highlight: 0
   year: 2025
@@ -25,7 +57,7 @@
 - title: "Difference Inversion: Interpolate and Isolate the Difference with Token Consistency for Image Analogy Generation"
   authors: Hyunsoo Kim, Donghyun Kim\*, Suhyun Kim\*
   link:
-    url: 
+    url: https://arxiv.org/pdf/2506.07750
     display: CVPR 2025
   highlight: 0
   year: 2025
