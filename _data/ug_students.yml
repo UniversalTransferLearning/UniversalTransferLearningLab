@@ -22,26 +22,6 @@
 #  number_educ: 0
 #  education1:
 
-- name: Hyunjee Song
-  photo: Hyunjee.jpg
-  info: Undergraduate Student
-#  email: ssojungan@gmail.com
-
-- name: Junseok Lee
-  photo: Junseok.jpg
-  info: Undergraduate Student
-#  email: ssojungan@gmail.com
-
-- name: Sangwook Lee
-  photo: Sangwook.jpg
-  info: Undergraduate Student
-#  email: ssojungan@gmail.com
-
-- name: Changbeen Kim
-  photo: Changbeen.jpg
-  info: Undergraduate Student
-#  email: ssojungan@gmail.com
-
 - name: Dongyun Nam
   photo: Dongyun.jpg
   info: Undergraduate Student
@@ -49,10 +29,6 @@
 
 - name: Junhwan Heo
   photo: Junhwan.jpg
-  info: Undergraduate Student
-
-- name: Euiseok Lee
-  photo: Euiseok.jpg
   info: Undergraduate Student
 
 - name: Jaewon Lee

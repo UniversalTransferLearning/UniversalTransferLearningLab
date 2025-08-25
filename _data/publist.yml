@@ -10,7 +10,7 @@
   authors: Kwanyong Park, Sojung An, Yong Jae Lee, Donghyun Kim
   link:
     url: ""
-    display: International Journal of Computer Vision 2025 (JCR IF Top 10%)
+    display: International Journal of Computer Vision (JCR IF Top 10%)
   highlight: 0
   year: 2025
 
@@ -62,6 +62,14 @@
   highlight: 0
   year: 2025
 
+- title: "ToonSplat: High-Quality 3D Cartoon Avatar Reconstruction with Gaussian Splatting"
+  authors: MinHyuk Jang, Jong Wook Kim, Youngdong Jang, Donghyun Kim, Wonseok Roh, InYong Hwang, Guang Lin, Sangpil Kim
+  link:
+    url: https://www.sciencedirect.com/science/article/pii/S0952197625003057
+    display: Engineering Applications of Artificial Intelligence (JCR IF Top 10%)
+  highlight: 0
+  year: 2025
+
 - title: "Difference Inversion: Interpolate and Isolate the Difference with Token Consistency for Image Analogy Generation"
   authors: Hyunsoo Kim, Donghyun Kim\*, Suhyun Kim\*
   link:
@@ -82,7 +90,7 @@
   authors: Sojung An, Tae-Jin Oh, Eunha Sohn, Donghyun Kim
   link:
     url: https://arxiv.org/pdf/2406.04867
-    display: Expert Systems with Applications 2025 (JCR IF Top 10%)
+    display: Expert Systems with Applications (JCR IF Top 10%)
   highlight: 0
   year: 2025
 

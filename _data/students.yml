@@ -33,6 +33,11 @@
   info: PhD Student
   email: dongheekim@korea.ac.kr
 
+- name: Dujin Lee
+  photo: Dujin.jpg
+  info: MS/PhD Student
+  email: ldj0305@korea.ac.kr
+
 - name: Yongwoo Kim
   photo: Yongwoo.jpg
   info: MS/PhD Student
@@ -43,15 +48,20 @@
   info: MS/PhD Student
   email: doldol9080@korea.ac.kr
 
+- name: Junseok Lee
+  photo: Junseok.jpg
+  info: MS/PhD Student
+  email: behindstarter42@korea.ac.kr
+
+- name: Uiseok Lee
+  photo: Uiseok.jpg
+  info: MS/PhD Student
+  email: us.lee1520@korea.ac.kr
+
 - name: Jungmyung Wi
   photo: Jungmyung.png
   info: MS Student
   email: wjm333@korea.ac.kr
-
-- name: Dujin Lee
-  photo: Dujin.jpg
-  info: MS Student
-  email: ldj0305@korea.ac.kr
 
 - name: Hyunsoo Kim
   photo: Hyunsoo.jpg
@@ -67,3 +77,18 @@
   photo: Subin.jpg
   info: MS Student
   email: sbchoi1005@korea.ac.kr
+
+- name: Hyunjee Song
+  photo: Hyunjee.jpg
+  info: BS/MS Student
+  email: hkelly062001@korea.ac.kr
+
+- name: Changbeen Kim
+  photo: Changbeen.jpg
+  info: BS/MS Student
+  email: twenty200@korea.ac.kr
+
+- name: Sangwook Kim
+  photo: Sangwook.jpg
+  info: BS/MS Student
+  email: vecum0814@korea.ac.kr
