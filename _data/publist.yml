@@ -1,7 +1,15 @@
+- title: "Training-Free Label Space Alignment for Universal Domain Adaptation"
+  authors: Dujin Lee, Sojung An, Junmyung Wi, Kuniaki Saito, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2509.17452
+    display: ICCV 2025 Workshop on "CLVL: 6th Workshop on Closing The Loop Between Vision and Language (Decade Mark)"
+  highlight: 0
+  year: 2025
+
 - title: "Visual delta generation with large multi-modal models enhances composed image retrieval using unlabeled data"
   authors: Young Kyun Jang, Donghyun Kim
   link:
-    url: ""
+    url: https://arxiv.org/pdf/2404.15516
     display: Scientific Reports (JCR IF Top 25%)
   highlight: 0
   year: 2025
@@ -9,7 +17,7 @@
 - title: "Learning Compositionality from Multifaceted Synthetic Data for Language-based Object Detection"
   authors: Kwanyong Park, Sojung An, Yong Jae Lee, Donghyun Kim
   link:
-    url: ""
+    url: https://link.springer.com/article/10.1007/s11263-025-02554-9
     display: International Journal of Computer Vision (JCR IF Top 10%)
   highlight: 0
   year: 2025
@@ -25,7 +33,7 @@
 - title: "LoRA-Loop: Closing the Synthetic Replay Cycle for Continual VLM Learning"
   authors: Kaihong Wang, Donghyun Kim, Margrit Betke
   link:
-    url: ""
+    url: https://arxiv.org/pdf/2507.13568
     display: ICCV 2025 Workshop on "The 4th DataCV Workshop and Challenge"
   highlight: 0
   year: 2025
@@ -41,7 +49,7 @@
 - title: "ZIUM: Zero-Shot Intent-Aware Adversarial Attack on Unlearned Models"
   authors: Hyun Jun Yook, Ga San Jhun, Cho Jae Hyun, Min Jeon, Donghyun Kim, Tae Hyung Kim, Youn Kyu Lee
   link:
-    url: ""
+    url: https://arxiv.org/pdf/2507.21985
     display: ICCV 2025
   highlight: 0
   year: 2025
