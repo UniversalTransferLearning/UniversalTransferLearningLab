@@ -8,7 +8,7 @@ permalink: /utlnews/
 
 # News
 
-{% assign sorted_news = site.data.news | sort: 'date_iso' | reverse %}
+{% assign sorted_news = site.data.news | sort: 'date_iso' %}
 
 <div class="news-list">
 {% for article in sorted_news %}
