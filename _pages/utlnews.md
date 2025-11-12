@@ -8,28 +8,17 @@ permalink: /utlnews/
 
 # News
 
-{% assign all_years = "" | split: "," %}
-{% for article in site.data.news %}
-  {% assign article_year = article.date | split: ' ' | last %}
-  {% unless all_years contains article_year %}
-    {% assign all_years = all_years | push: article_year %}
-  {% endunless %}
+{% assign sorted_news = site.data.news | sort: 'date_iso' %}
+
+<div class="news-list">
+{% for article in sorted_news %}
+<div class="news-card" style="margin:16px 0; border-left:4px solid #007acc; padding:16px; background:#f8f9fa; border-radius:8px;">
+<div class="news-date" style="color:#007acc; font-weight:700; font-size:0.95em; margin-bottom:6px;">
+  {{ article.date }}
+</div>
+<div class="news-headline" style="line-height:1.6; color:#333; font-size:1.05em;">
+  {{ article.headline }}
+</div>
+</div>
 {% endfor %}
-
-{% assign sorted_years = all_years | sort | reverse %}
-
-{% for year in sorted_years %}
-## {{ year }}
-
-  {% assign months = "Dec.,Nov.,Oct.,Sep.,Aug.,Jul.,Jun.,May,Apr.,Mar.,Feb.,Jan.,December,November,October,September,August,July,June,April,March,February,January" | split: "," %}
-  
-  {% for month in months %}
-    {% for article in site.data.news %}
-      {% assign article_year = article.date | split: ' ' | last %}
-      {% if article_year == year and article.date contains month %}
-{{ article.date }}: {{ article.headline }}
-      {% endif %}
-    {% endfor %}
-  {% endfor %}
-
-{% endfor %}
+</div>
