@@ -8,37 +8,28 @@ permalink: /utlnews/
 
 # News
 
-{% assign sorted_news = site.data.news | sort: 'date' | reverse %}
-{% assign number_printed = 0 %}
-
-{% for article in sorted_news %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-12" style="margin-bottom: 20px;">
-  <div class="news-card" style="border-left: 4px solid #007acc; padding: 20px; background-color: #f8f9fa; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
-    <div class="news-date" style="color: #007acc; font-weight: bold; font-size: 0.9em; margin-bottom: 10px;">
-      {{ article.date }}
-    </div>
-    <div class="news-headline" style="line-height: 1.6; color: #333; font-size: 1.1em;">
-      {{ article.headline }}
-    </div>
-  </div>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
+{% assign all_years = "" | split: "," %}
+{% for article in site.data.news %}
+  {% assign article_year = article.date | split: ' ' | last %}
+  {% unless all_years contains article_year %}
+    {% assign all_years = all_years | push: article_year %}
+  {% endunless %}
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
+{% assign sorted_years = all_years | sort | reverse %}
+
+{% for year in sorted_years %}
+## {{ year }}
+
+  {% assign months = "Dec.,Nov.,Oct.,Sep.,Aug.,Jul.,Jun.,May,Apr.,Mar.,Feb.,Jan.,December,November,October,September,August,July,June,April,March,February,January" | split: "," %}
+  
+  {% for month in months %}
+    {% for article in site.data.news %}
+      {% assign article_year = article.date | split: ' ' | last %}
+      {% if article_year == year and article.date contains month %}
+{{ article.date }}: {{ article.headline }}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+
+{% endfor %}
