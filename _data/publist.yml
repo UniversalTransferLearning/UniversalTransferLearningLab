@@ -1,3 +1,11 @@
+- title: "Delving into Pre-training for Domain Transfer: A Broad Study of Pre-training for Domain Generalization and Domain Adaptation"
+  authors: Jungmyung Wi, Young Kyun Jang, Dujin Lee, Myeongseok Nam, Donghyun Kim
+  link:
+    url: 
+    display: International Journal of Computer Vision (JCR IF Top 10%)
+  highlight: 0
+  year: 2025
+  
 - title: "Training-Free Label Space Alignment for Universal Domain Adaptation"
   authors: Dujin Lee, Sojung An, Jungmyung Wi, Kuniaki Saito, Donghyun Kim
   link:
