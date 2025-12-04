@@ -13,13 +13,21 @@ permalink: /openings
 
 <h4>Our lab is looking for students who</h4>
 <ul>
-  <li> possess enthusiasm, skill, and determination to join our group!</li>
-  <li> are expected to publish 1+ paper in top-tiered conferences </li>
-  
+  <li>possess enthusiasm, skill, and determination to join our group!</li>
+  <li>are expected to publish 1+ paper in top-tier conferences</li>
 </ul>
 
+<h4>Application (For joining us)</h4>
 
-If you have an interest in collaborating with us as a master's, master's/PhD, doctoral student, or postdoctoral researcher, kindly reach out to me via [email](mailto:d_kim@korea.ac.kr) with your CV and academic transcripts.
+If you have an interest in collaborating with us as a MS, MS/PhD, PhD student, or postdoctoral researcher, kindly reach out to me via [email](mailto:d_kim@korea.ac.kr) with the following documents:
+
+- CV  
+- Motivation for applying  
+- Brief description of your application plan (e.g., intended program and timeline)  
+- Academic transcripts (Undergraduate and graduate, if applicable)
+- Your main research interests  
+
+As part of the application process, you will typically start by giving seminar presentations so that we can evaluate how well you fit with the lab in terms of research style and communication. After that, you will work on a small research project and regularly present your progress within the group.
 
 The application timeline for Spring 2026 is in <a href="http://xai.korea.ac.kr/kor/borad/notice?viewMode=view&ca=&sel_search=&txt_search=&page=1&idx=126">here</a>. 
 
