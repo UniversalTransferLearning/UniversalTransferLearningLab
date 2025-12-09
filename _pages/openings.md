@@ -19,7 +19,7 @@ permalink: /openings
 
 <h4>Application (For joining us)</h4>
 
-If you have an interest in collaborating with us as a Undergraduate Intern, MS, MS/PhD, PhD student, or postdoctoral researcher, kindly reach out to me via [email](mailto:d_kim@korea.ac.kr) with the following documents:
+If you have an interest in collaborating with us as a Undergraduate, MS, MS/PhD, PhD student, or postdoctoral researcher, kindly reach out to me via [email](mailto:d_kim@korea.ac.kr) with the following documents:
 
 - CV  
 - Motivation for applying  
