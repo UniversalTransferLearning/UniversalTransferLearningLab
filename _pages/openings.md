@@ -29,7 +29,7 @@ If you have an interest in collaborating with us as a Undergraduate, MS, MS/PhD,
 
 As part of the application process, you will typically start by giving seminar presentations on recent papers in our research area so that we can see how well you fit with the lab in terms of research style and communication. After that, you will work on a small research project and regularly present your progress within the group.
 
-The application timeline for Spring 2026 is in <a href="http://xai.korea.ac.kr/kor/borad/notice?viewMode=view&ca=&sel_search=&txt_search=&page=1&idx=126">here</a>. 
+The application timeline for Fall 2026 is in <a href="http://xai.korea.ac.kr/kor/borad/notice?viewMode=view&ca=&sel_search=&txt_search=&page=1&idx=138">here</a>. 
 
 [//]: # ()
 [//]: # (### Past open positions)
