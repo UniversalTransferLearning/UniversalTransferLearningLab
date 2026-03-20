@@ -1,0 +1,74 @@
+<!-- POPUP -->
+<div id="test-popup-overlay" style="
+  display: none;
+  position: fixed;
+  top: 80px; left: 20px;
+  z-index: 9999;
+">
+  <div style="
+    background: #fff;
+    border-radius: 10px;
+    width: 380px;
+    position: relative;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
+    overflow: hidden;
+    border-top: 4px solid #2563eb;
+  ">
+    <!-- 닫기 버튼 -->
+    <button onclick="document.getElementById('test-popup-overlay').style.display='none'" style="
+      position: absolute;
+      top: 10px; right: 14px;
+      background: none;
+      border: none;
+      font-size: 20px;
+      cursor: pointer;
+      color: #bbb;
+      line-height: 1;
+    ">&times;</button>
+
+    <!-- 본문 -->
+    <div style="padding: 24px 28px 20px;">
+
+      <!-- 협업 배지 -->
+      <div style="display: inline-block; background: #EEF4FF; border-radius: 20px; padding: 4px 12px; margin-bottom: 14px;">
+        <span style="font-size: 11px; color: #2563eb; font-weight: 600; letter-spacing: 0.3px;">
+          Embodied AI Research · In collaboration with Microsoft Research &amp; UW–Madison
+        </span>
+      </div>
+
+      <h3 style="margin: 0 0 10px; color: #1a1a2e; font-size: 15px; line-height: 1.4;">
+        We Are Hiring — M.S./Ph.D. in <strong>Embodied AI</strong>
+      </h3>
+      <hr style="margin: 0 0 14px; border: none; border-top: 1px solid #eee;">
+
+      <p style="color: #555; line-height: 1.65; font-size: 13.5px; margin: 0 0 10px;">
+        Our research pushes the frontier of Embodied AI, developing AI agents that understand their environment and execute complex robot manipulation tasks through integrated perception, reasoning, and planning.
+      </p>
+      <p style="color: #555; line-height: 1.65; font-size: 13.5px; margin: 0 0 10px;">
+        Please check <a href="https://arxiv.org/pdf/2603.13433" target="_blank" style="color: #2563eb; font-weight: 600;">our recent work</a> on Embodied AI.
+      </p>
+      <p style="color: #555; line-height: 1.65; font-size: 13.5px; margin: 0 0 20px;">
+        If you are interested, please feel free to reach out via email.
+      </p>
+
+      <div style="text-align: right;">
+        <button onclick="document.getElementById('test-popup-overlay').style.display='none'" style="
+          background: #2563eb;
+          color: #fff;
+          border: none;
+          padding: 8px 20px;
+          border-radius: 6px;
+          cursor: pointer;
+          font-size: 13px;
+          font-weight: 600;
+        ">닫기</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  window.addEventListener('load', function() {
+    document.getElementById('test-popup-overlay').style.display = 'block';
+  });
+</script>

@@ -26,6 +26,7 @@ We are <strong>Universal Transfer Learning (UTL)</strong> lab at Korea Universit
   <li>Un/self-supervised Learning</li>
   <li>Learning From Synthetic Data</li>
   <li>Learning Compositionality</li>
+  <li>Embodied AI</li>
   <li>Etc…</li>
 </ul>
 
