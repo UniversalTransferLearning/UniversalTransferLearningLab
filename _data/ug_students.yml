@@ -22,31 +22,21 @@
 #  number_educ: 0
 #  education1:
 
-- name: Dongyun Nam
-  photo: Dongyun.jpg
-  info: Undergraduate Student
-#  email: ssojungan@gmail.com
-
-- name: Junhwan Heo
-  photo: Junhwan.jpg
-  info: Undergraduate Student
-
-- name: Jaewon Lee
-  photo: Jaewon.jpg
-  info: Undergraduate Student
-
-- name: Sehun Jung
-  photo: Sehun.jpg
-  info: Undergraduate Student
+# bundle exec jekyll serve
 
 - name: Kipyo Kim
-  photo: Kipyo.png
   info: Undergraduate Student
 
 - name: Jehyun Park
-  photo: Jehyun.jpg
   info: Undergraduate Student
 
-- name: Junwon Chang
-  photo: Junwon.jpeg
+- name: SeokHee Han
   info: Undergraduate Student
+
+- name: YoungJun Kim
+  info: Undergraduate Student
+
+- name: JungHun Kim
+  info: Undergraduate Student
+
+# - name: 
