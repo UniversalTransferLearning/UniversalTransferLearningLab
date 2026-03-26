@@ -15,7 +15,7 @@
     border-top: 4px solid #2563eb;
   ">
     <!-- 닫기 버튼 -->
-    <button onclick="document.getElementById('test-popup-overlay').style.display='none'" style="
+    <button onclick="closePopup()" style="
       position: absolute;
       top: 10px; right: 14px;
       background: none;
@@ -52,7 +52,7 @@
       </p>
 
       <div style="text-align: right;">
-        <button onclick="document.getElementById('test-popup-overlay').style.display='none'" style="
+        <button onclick="closePopup()" style="
           background: #2563eb;
           color: #fff;
           border: none;
@@ -68,7 +68,12 @@
 </div>
 
 <script>
-  window.addEventListener('load', function() {
+  function closePopup() {
+    document.getElementById('test-popup-overlay').style.display = 'none';
+    sessionStorage.setItem('recruitment-popup-closed', '1');
+  }
+
+  if (!sessionStorage.getItem('recruitment-popup-closed')) {
     document.getElementById('test-popup-overlay').style.display = 'block';
-  });
+  }
 </script>
