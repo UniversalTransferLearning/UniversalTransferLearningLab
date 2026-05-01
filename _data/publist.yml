@@ -1,3 +1,11 @@
+- title: "Diversity Over Frequency: Rethinking Tool Use in Visual Chain-of-Thought Agents"
+  authors: Dong-Hee Kim, Reuben Tan (Microsoft Research), Donghyun Kim
+  link:
+    url:
+    display: International Conference on Machine Learning (ICML)
+  highlight: 0
+  year: 2026
+
 - title: "Are We Truly Forgetting? A Critical Re-examination of Machine Unlearning Evaluation Protocols"
   authors: Yongwoo Kim\*, Sungmin Cha\*, Donghyun Kim
   link:
