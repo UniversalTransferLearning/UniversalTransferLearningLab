@@ -101,7 +101,8 @@ Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=e
 {% assign div_opened = 1 %}
 {% endif %}
 {{ publi.title }} <br />
-<em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
+<em>{{ publi.authors }}</em><br />
+{% if publi.affiliations %}<span class="pub-affiliations">{{ publi.affiliations }}</span><br />{% endif %}<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
 {% endfor %}
 
