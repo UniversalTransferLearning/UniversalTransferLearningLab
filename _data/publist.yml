@@ -2,8 +2,8 @@
   authors: "Sehun Jung<sup>1*</sup>, HyunJee Song<sup>1*</sup>, Dong-Hee Kim<sup>1</sup>, Reuben Tan<sup>2</sup>, Jianfeng Gao<sup>2</sup>, Yong Jae Lee<sup>3</sup>, Donghyun Kim<sup>1</sup>"
   affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Microsoft Research &nbsp; <sup>3</sup>University of Wisconsin-Madison"
   link:
-    url:
-    display: International Conference on Intelligent Robots & Systems (IROS)
+    url: https://arxiv.org/pdf/2603.13433
+    display: "International Conference on Intelligent RObots & Systems (IROS)<br>ICRA 2026 Workshop on Open Challenges for Rigorous Robot Perception"
   highlight: 0
   year: 2026
 
@@ -11,15 +11,15 @@
   authors: "Dong-Hee Kim<sup>1</sup>, Reuben Tan<sup>2</sup>, Donghyun Kim<sup>1</sup>"
   affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Microsoft Research"
   link:
-    url:
-    display: International Conference on Machine Learning (ICML)
+    url: https://arxiv.org/pdf/2606.00096
+    display: "International Conference on Machine Learning (ICML)"
   highlight: 0
   year: 2026
 
 - title: "Are We Truly Forgetting? A Critical Re-examination of Machine Unlearning Evaluation Protocols"
   authors: Yongwoo Kim\*, Sungmin Cha\*, Donghyun Kim
   link:
-    url:
+    url: https://arxiv.org/pdf/2503.06991
     display: Engineering Applications of Artificial Intelligence (EAAI)
   highlight: 0
   year: 2026
@@ -27,7 +27,7 @@
 - title: "Too Many Frames, Not All Useful: Efficient Strategies for Long-Form Video QA"
   authors: Jongwoo Park, Kanchana Ranasinghe, Kumara Kahatapitiya, Wonjeong Ryu, Donghyun Kim, Michael S Ryoo
   link:
-    url:
+    url: https://arxiv.org/pdf/2406.09396
     display: European Chapter of the Association for Computational Linguistics (EACL)
   highlight: 0
   year: 2026
@@ -35,7 +35,7 @@
 - title: "Delving into Pre-training for Domain Transfer: A Broad Study of Pre-training for Domain Generalization and Domain Adaptation"
   authors: Jungmyung Wi, Young Kyun Jang, Dujin Lee, Myeongseok Nam, Donghyun Kim
   link:
-    url: 
+    url: https://link.springer.com/article/10.1007/s11263-025-02590-5
     display: International Journal of Computer Vision (JCR IF Top 3%)
   highlight: 0
   year: 2026
