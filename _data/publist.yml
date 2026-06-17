@@ -1,3 +1,13 @@
+- title: "Spatially Grounded Long-Horizon Task Planning in the Wild"
+  authors: "Sehun Jung<sup>1†</sup>, HyunJee Song<sup>1†</sup>, Dong-Hee Kim<sup>1</sup>, Reuben Tan<sup>2</sup>, Jianfeng Gao<sup>2</sup>, Yong Jae Lee<sup>3</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Microsoft Research &nbsp; <sup>3</sup>University of Wisconsin-Madison"
+  note: "† indicates first authors with equal contributions"
+  link:
+    url:
+    display:
+  highlight: 0
+  year: 2026
+
 - title: "Diversity Over Frequency: Rethinking Tool Use in Visual Chain-of-Thought Agents"
   authors: "Dong-Hee Kim<sup>1</sup>, Reuben Tan<sup>2</sup>, Donghyun Kim<sup>1</sup>"
   affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Microsoft Research"
