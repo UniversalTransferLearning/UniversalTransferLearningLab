@@ -1,3 +1,27 @@
+- title: "LoCA: Spatially-Aware Low-Rank Convolutional Adaptation of Vision Foundation Models"
+  authors: Sojung An, Junha Lee, Sujeong You, Nam Ik Cho, Donghyun Kim
+  link:
+    url:
+    display: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  year: 2026
+
+- title: "Correlation-Weighted Multi-Reward Optimization for Compositional Generation"
+  authors: Jungmyung Wi, Hyunsoo Kim, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2603.18528
+    display: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  year: 2026
+
+- title: "Self-Improving Diffusion Classifiers with Minority Preference Optimization"
+  authors: "Jungmyung Wi*, Hyunsoo Kim*, Soobin Um, Donghyun Kim†, Suhyun Kim†"
+  link:
+    url:
+    display: European Conference on Computer Vision (ECCV)
+  highlight: 0
+  year: 2026
+
 - title: "Spatially Grounded Long-Horizon Task Planning in the Wild"
   authors: "Sehun Jung<sup>1*</sup>, HyunJee Song<sup>1*</sup>, Dong-Hee Kim<sup>1</sup>, Reuben Tan<sup>2</sup>, Jianfeng Gao<sup>2</sup>, Yong Jae Lee<sup>3</sup>, Donghyun Kim<sup>1</sup>"
   affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Microsoft Research &nbsp; <sup>3</sup>University of Wisconsin-Madison"
