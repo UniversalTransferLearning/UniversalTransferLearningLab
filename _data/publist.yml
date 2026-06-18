@@ -15,7 +15,7 @@
   year: 2026
 
 - title: "Self-Improving Diffusion Classifiers with Minority Preference Optimization"
-  authors: "Jungmyung Wi\*, Hyunsoo Kim\*, Soobin Um, Donghyun Kim<sup>†</sup>, Suhyun Kim<sup>†</sup>"
+  authors: "Jungmyung Wi\\*, Hyunsoo Kim\\*, Soobin Um, Donghyun Kim<sup>†</sup>, Suhyun Kim<sup>†</sup>"
   link:
     url:
     display: European Conference on Computer Vision (ECCV)
