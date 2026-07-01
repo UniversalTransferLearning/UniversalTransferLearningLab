@@ -1,3 +1,11 @@
+- title: "Training-Free Label Space Alignment for Universal Domain Adaptation"
+  authors: Dujin Lee, Sojung An, Jungmyung Wi, Kuniaki Saito, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2509.17452
+    display: Engineering Applications of Artificial Intelligence (EAAI)
+  highlight: 0
+  year: 2026
+
 - title: "LoCA: Spatially-Aware Low-Rank Convolutional Adaptation of Vision Foundation Models"
   authors: Sojung An, Junha Lee, Sujeong You, Nam Ik Cho, Donghyun Kim
   link:
