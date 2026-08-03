@@ -210,6 +210,17 @@ I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the
 {% endif %}
 <br />
 
+## Alumni
+
+<div class="row">
+<div class="col-sm-12 clearfix">
+{% for member in site.data.alumni_members %}
+<p><strong>{{ member.name }}</strong> — {{ member.info }}</p>
+{% endfor %}
+</div>
+</div>
+<br />
+
 <!-- ## Former students -->
 
 [//]: # (<br />)
