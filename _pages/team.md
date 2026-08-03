@@ -212,13 +212,32 @@ I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the
 
 ## Alumni
 
-<div class="row">
-<div class="col-sm-12 clearfix">
+{% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
-<p><strong>{{ member.name }}</strong> — {{ member.info }}</p>
+
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}
+<div class="row">
+{% endif %}
+
+<div class="col-sm-6 clearfix">
+  <h4>{{ member.name }}</h4>
+  <i>{{ member.info }}</i>
+</div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+
+{% if even_odd == 1 %}
+</div>
+{% endif %}
+
 {% endfor %}
+
+{% assign even_odd = number_printed | modulo: 2 %}
+{% if even_odd == 1 %}
 </div>
-</div>
+{% endif %}
 <br />
 
 <!-- ## Former students -->
