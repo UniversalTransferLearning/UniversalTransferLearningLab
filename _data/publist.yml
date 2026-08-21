@@ -7,7 +7,7 @@
   year: 2026
 
 - title: "Learning Disentangled and Hierarchical Representation for Linguistic Compositionality in Language-based Object Detection"
-  authors: Sojung An, Kwanyong Park, Yong Jae Lee, Donghyun Kim
+  authors: "Sojung An\\*, Kwanyong Park\\*, Yong Jae Lee, Donghyun Kim"
   link:
     url: https://arxiv.org/pdf/2509.24192
     display: Empirical Methods in Natural Language Processing (EMNLP)
@@ -15,10 +15,10 @@
   year: 2026
 
 - title: "KSAFE-MM: A Multimodal Safety Benchmark via Localized Contextualization for Korean Cultural Risks"
-  authors: Yongwoo Kim, Sojung An, Yunjin Park, Jungwon Yoon, Dujin Lee, HyunBeom Cho, Jaewon Lee, Wonhyuk Lee, Youngchol Kim, JeongYeop Kim, Donghyun Kim
+  authors: "Yongwoo Kim\\*, Sojung An\\*, Yunjin Park, Jungwon Yoon, Dujin Lee, HyunBeom Cho, Jaewon Lee, Wonhyuk Lee, Youngchol Kim, JeongYeop Kim, Donghyun Kim"
   link:
     url: https://arxiv.org/pdf/2605.28013
-    display: Empirical Methods in Natural Language Processing (EMNLP)
+    display: Empirical Methods in Natural Language Processing Findings (EMNLP)
   highlight: 0
   year: 2026
 
@@ -31,7 +31,7 @@
   year: 2026
 
 - title: "LoCA: Spatially-Aware Low-Rank Convolutional Adaptation of Vision Foundation Models"
-  authors: Sojung An, Junha Lee, Sujeong You, Nam Ik Cho, Donghyun Kim
+  authors: "Sojung An\\*, Junha Lee\\*, Sujeong You, Nam Ik Cho, Donghyun Kim"
   link:
     url:
     display: European Conference on Computer Vision (ECCV)
