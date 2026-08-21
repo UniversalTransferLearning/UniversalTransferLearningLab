@@ -1,3 +1,27 @@
+- title: "VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration"
+  authors: Changbeen Kim, Junwon Chang, Kipyo Kim, Risa Shinoda, Kuniaki Saito, Donghyun Kim
+  link:
+    url:
+    display: Empirical Methods in Natural Language Processing (EMNLP)
+  highlight: 0
+  year: 2026
+
+- title: "Learning Disentangled and Hierarchical Representation for Linguistic Compositionality in Language-based Object Detection"
+  authors: Sojung An, Kwanyong Park, Yong Jae Lee, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2509.24192
+    display: Empirical Methods in Natural Language Processing (EMNLP)
+  highlight: 0
+  year: 2026
+
+- title: "KSAFE-MM: A Multimodal Safety Benchmark via Localized Contextualization for Korean Cultural Risks"
+  authors: Yongwoo Kim, Sojung An, Yunjin Park, Jungwon Yoon, Dujin Lee, HyunBeom Cho, Jaewon Lee, Wonhyuk Lee, Youngchol Kim, JeongYeop Kim, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2605.28013
+    display: Empirical Methods in Natural Language Processing (EMNLP)
+  highlight: 0
+  year: 2026
+
 - title: "Training-Free Label Space Alignment for Universal Domain Adaptation"
   authors: Dujin Lee, Sojung An, Jungmyung Wi, Kuniaki Saito, Donghyun Kim
   link:
