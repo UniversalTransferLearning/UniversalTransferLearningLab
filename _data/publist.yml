@@ -137,7 +137,7 @@
   year: 2025
 
 - title: "SynRES: Towards Referring Expression Segmentation in the Wild via Synthetic Data"
-  authors: Dong-Hee Kim, Hyunjee Song, Donghyun Kim
+  authors: Dong-Hee Kim, HyunJee Song, Donghyun Kim
   link:
     url: https://arxiv.org/pdf/2505.17695
     display: ICCV 2025 Workshop on "The 4th DataCV Workshop and Challenge"
