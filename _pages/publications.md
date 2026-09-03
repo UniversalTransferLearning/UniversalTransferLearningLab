@@ -100,15 +100,12 @@ Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=e
 <h3>{{ publi.year }}</h3>
 {% assign div_opened = 1 %}
 {% endif %}
-{{ publi.title }} <br />
-<!-- <em>{{ publi.authors }}</em><br /> -->
 {% assign formatted_authors = publi.authors %}
-
 {% for author in site.data.utl_authors %}
   {% capture bold_author %}<span style="font-weight: 900; -webkit-text-stroke: 0.15px currentColor;">{{ author }}</span>{% endcapture %}
   {% assign formatted_authors = formatted_authors | replace: author, bold_author %}
 {% endfor %}
-
+{{ publi.title }}<br />
 <em>{{ formatted_authors }}</em><br />
 {% if publi.affiliations %}<span class="pub-affiliations">{{ publi.affiliations }}</span><br />{% endif %}<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
