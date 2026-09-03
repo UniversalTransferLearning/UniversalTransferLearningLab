@@ -352,7 +352,7 @@
   year: 2023
 
 - title: "VisDA 2022 Challenge: Sim2Real Domain Adaptation for Industrial Recycling"
-  authors: D. Bashkirova, P. Teterwak, S. Mishra, D. Kim, , R. Lai, F. Alladkani, J. Akl, B. Calli, V. Ablavsky, S. Bargal, K. Saenko
+  authors: D. Bashkirova, P. Teterwak, S. Mishra, D. Kim, R. Lai, F. Alladkani, J. Akl, B. Calli, V. Ablavsky, S. Bargal, K. Saenko
   link:
     url: https://proceedings.mlr.press/v220/bashkirova22a/bashkirova22a.pdf
     display: NeurIPS 2022 Competition
