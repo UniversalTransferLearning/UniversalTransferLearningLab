@@ -105,7 +105,7 @@ Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=e
   {% capture bold_author %}<span style="font-weight: 900; -webkit-text-stroke: 0.15px currentColor;">{{ author }}</span>{% endcapture %}
   {% assign formatted_authors = formatted_authors | replace: author, bold_author %}
 {% endfor %}
-<span style="font-size: 18px; font-weight: 600;">{{ publi.title }}</span><br />
+<span style="font-size: 18px">{{ publi.title }}</span><br />
 <em>{{ formatted_authors }}</em><br />
 {% if publi.affiliations %}<span class="pub-affiliations">{{ publi.affiliations }}</span><br />{% endif %}<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
 
