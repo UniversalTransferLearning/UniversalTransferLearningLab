@@ -105,7 +105,7 @@ Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=e
 {% assign formatted_authors = publi.authors %}
 
 {% for author in site.data.utl_authors %}
-  {% capture bold_author %}<span style="font-weight: 700;">{{ author }}</span>{% endcapture %}
+  {% capture bold_author %}<span style="font-weight: 900; -webkit-text-stroke: 0.15px currentColor;">{{ author }}</span>{% endcapture %}
   {% assign formatted_authors = formatted_authors | replace: author, bold_author %}
 {% endfor %}
 
