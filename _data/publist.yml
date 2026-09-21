@@ -1,3 +1,11 @@
+- title: "Stable in 2D, Adrift in 3D: Why Grasping VLAs Fail Under Viewpoint Shift"
+  authors: "HyunJee Song\\*, Sehun Jung\\*, Dong-Hee Kim, Donghyun Kim"
+  link:
+    url:
+    display: IROS 2026 Workshop BLPC
+  highlight: 0
+  year: 2026
+
 - title: "VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration"
   authors: Changbeen Kim, Junwon Chang, Kipyo Kim, Risa Shinoda, Kuniaki Saito, Donghyun Kim
   link:
