@@ -44,7 +44,7 @@ Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=e
 
 [//]: # (  <p><em>{{ publi.authors }}</em></p>)
 
-[//]: # (  <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>)
+[//]: # (  <p><strong><a href="{{ publi.link.url }}" style="font-size: 14px;">{{ publi.link.display }}</a></strong></p>)
 
 [//]: # (  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>)
 
