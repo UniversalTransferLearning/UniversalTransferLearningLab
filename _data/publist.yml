@@ -1,3 +1,19 @@
+- title: "Beyond Visual Boundaries: Rethinking Scene Segmentation for Movie RAG"
+  authors: Dong-Hee Kim, Seonwoo Choi, Changbeen Kim, Jungmyung Wi, Juyeon Ko, Youngju Choi, Il Hyeon Mun, Hyunwoo J. Kim, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2608.28699
+    display: NeurIPS 2026 (Evaluations and Datasets Track)
+  highlight: 0
+  year: 2026
+
+- title: "Consistency-Preserving Concept Erasure via Unsafe-Safe Pairing and Directional Fisher-weighted Adaptation"
+  authors: Yongwoo Kim, Sungmin Cha, Hyunsoo Kim, Jaewon Lee, Donghyun Kim
+  link:
+    url: https://arxiv.org/pdf/2602.05339
+    display: NeurIPS 2026
+  highlight: 0
+  year: 2026
+
 - title: "Stable in 2D, Adrift in 3D: Why Grasping VLAs Fail Under Viewpoint Shift"
   authors: "HyunJee Song\\*, Sehun Jung\\*, Dong-Hee Kim, Donghyun Kim"
   link:
