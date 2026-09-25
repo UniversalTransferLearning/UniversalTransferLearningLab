@@ -7,7 +7,7 @@
   year: 2026
 
 - title: "Consistency-Preserving Concept Erasure via Unsafe-Safe Pairing and Directional Fisher-weighted Adaptation"
-  authors: Yongwoo Kim, Sungmin Cha, Hyunsoo Kim, Jaewon Lee, Donghyun Kim
+  authors: "Yongwoo Kim\\*, Sungmin Cha\\*, Hyunsoo Kim, Jaewon Lee, Donghyun Kim"
   link:
     url: https://arxiv.org/pdf/2602.05339
     display: Neural Information Processing Systems (NeurIPS)
