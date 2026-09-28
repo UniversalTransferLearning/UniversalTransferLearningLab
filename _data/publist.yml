@@ -34,7 +34,8 @@
   year: 2026
 
 - title: "VidOmni-Bench: A Benchmark for Fine-Grained Video Understanding via Spatio-Temporal Event Verification across Complexity and Duration"
-  authors: Changbeen Kim, Junwon Chang, Kipyo Kim, Risa Shinoda, Kuniaki Saito, Donghyun Kim
+  authors: "Changbeen Kim<sup>1</sup>, Junwon Chang<sup>1</sup>, Kipyo Kim<sup>2</sup>, Risa Shinoda<sup>3</sup>, Kuniaki Saito<sup>4</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Sungkyunkwan University &nbsp; <sup>3</sup>The University of Tokyo &nbsp; <sup>4</sup>OMRON SINIC X"
   link:
     url: https://arxiv.org/pdf/2609.21521
     display: Empirical Methods in Natural Language Processing (EMNLP)
@@ -42,7 +43,8 @@
   year: 2026
 
 - title: "Learning Disentangled and Hierarchical Representation for Linguistic Compositionality in Language-based Object Detection"
-  authors: "Sojung An\\*, Kwanyong Park\\*, Yong Jae Lee, Donghyun Kim"
+  authors: "Sojung An<sup>1*</sup>, Kwanyong Park<sup>2*</sup>, Yong Jae Lee<sup>3</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>University of Seoul &nbsp; <sup>3</sup>University of Wisconsin-Madison"
   link:
     url: https://arxiv.org/pdf/2509.24192
     display: Empirical Methods in Natural Language Processing (EMNLP)
@@ -50,7 +52,8 @@
   year: 2026
 
 - title: "KSAFE-MM: A Multimodal Safety Benchmark via Localized Contextualization for Korean Cultural Risks"
-  authors: "Yongwoo Kim\\*, Sojung An\\*, Yunjin Park, Jungwon Yoon, Dujin Lee, HyunBeom Cho, Jaewon Lee, Wonhyuk Lee, Youngchol Kim, JeongYeop Kim, Donghyun Kim"
+  authors: "Yongwoo Kim<sup>1*</sup>, Sojung An<sup>1*</sup>, Yunjin Park<sup>2</sup>, Jungwon Yoon<sup>2</sup>, Dujin Lee<sup>1</sup>, HyunBeom Cho<sup>1</sup>, Jaewon Lee<sup>1</sup>, Wonhyuk Lee<sup>2</sup>, Youngchol Kim<sup>2</sup>, JeongYeop Kim<sup>2</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>KT"
   link:
     url: https://arxiv.org/pdf/2605.28013
     display: Empirical Methods in Natural Language Processing Findings (EMNLP)
@@ -58,7 +61,8 @@
   year: 2026
 
 - title: "Training-Free Label Space Alignment for Universal Domain Adaptation"
-  authors: Dujin Lee, Sojung An, Jungmyung Wi, Kuniaki Saito, Donghyun Kim
+  authors: "Dujin Lee<sup>1</sup>, Sojung An<sup>1</sup>, Jungmyung Wi<sup>1</sup>, Kuniaki Saito<sup>2</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>OMRON SINIC X"
   link:
     url: https://arxiv.org/pdf/2509.17452
     display: Engineering Applications of Artificial Intelligence (EAAI)
@@ -66,7 +70,8 @@
   year: 2026
 
 - title: "LoCA: Spatially-Aware Low-Rank Convolutional Adaptation of Vision Foundation Models"
-  authors: "Sojung An\\*, Junha Lee\\*, Sujeong You, Nam Ik Cho, Donghyun Kim"
+  authors: "Sojung An<sup>1*</sup>, Junha Lee<sup>2,3*</sup>, Sujeong You<sup>2</sup>, Nam Ik Cho<sup>3</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Korea Institute of Industrial Technology &nbsp; <sup>3</sup>Seoul National University"
   link:
     url:
     display: European Conference on Computer Vision (ECCV)
@@ -74,7 +79,8 @@
   year: 2026
 
 - title: "Correlation-Weighted Multi-Reward Optimization for Compositional Generation"
-  authors: Jungmyung Wi, Hyunsoo Kim, Donghyun Kim
+  authors: "Jungmyung Wi<sup>1</sup>, Hyunsoo Kim<sup>1,2</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Korea Institute of Science and Technology"
   link:
     url: https://arxiv.org/pdf/2603.18528
     display: European Conference on Computer Vision (ECCV)
@@ -82,7 +88,8 @@
   year: 2026
 
 - title: "Self-Improving Diffusion Classifiers with Minority Preference Optimization"
-  authors: "Hyunsoo Kim\\*, Jungmyung Wi\\*, Soobin Um, Donghyun Kim<sup>†</sup>, Suhyun Kim<sup>†</sup>"
+  authors: "Hyunsoo Kim<sup>1*</sup>, Jungmyung Wi<sup>1*</sup>, Soobin Um<sup>2</sup>, Donghyun Kim<sup>1†</sup>, Suhyun Kim<sup>3†</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Kookmin University &nbsp; <sup>3</sup>Kyung Hee University"
   link:
     url:
     display: European Conference on Computer Vision (ECCV)
@@ -108,7 +115,8 @@
   year: 2026
 
 - title: "Are We Truly Forgetting? A Critical Re-examination of Machine Unlearning Evaluation Protocols"
-  authors: Yongwoo Kim\*, Sungmin Cha\*, Donghyun Kim
+  authors: "Yongwoo Kim<sup>1*</sup>, Sungmin Cha<sup>2*</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>New York University"
   link:
     url: https://arxiv.org/pdf/2503.06991
     display: Engineering Applications of Artificial Intelligence (EAAI)
@@ -116,7 +124,8 @@
   year: 2026
 
 - title: "Too Many Frames, Not All Useful: Efficient Strategies for Long-Form Video QA"
-  authors: Jongwoo Park, Kanchana Ranasinghe, Kumara Kahatapitiya, Wonjeong Ryu, Donghyun Kim, Michael S Ryoo
+  authors: "Jongwoo Park<sup>1</sup>, Kanchana Ranasinghe<sup>1</sup>, Kumara Kahatapitiya<sup>1</sup>, Wonjeong Ryu<sup>2</sup>, Donghyun Kim<sup>3</sup>, Michael S Ryoo<sup>1</sup>"
+  affiliations: "<sup>1</sup>Stony Brook University &nbsp; <sup>2</sup>KAIST &nbsp; <sup>3</sup>Korea University"
   link:
     url: https://arxiv.org/pdf/2406.09396
     display: European Chapter of the Association for Computational Linguistics (EACL)
@@ -124,7 +133,8 @@
   year: 2026
 
 - title: "Delving into Pre-training for Domain Transfer: A Broad Study of Pre-training for Domain Generalization and Domain Adaptation"
-  authors: Jungmyung Wi, Young Kyun Jang, Dujin Lee, Myeongseok Nam, Donghyun Kim
+  authors: "Jungmyung Wi<sup>1</sup>, Young Kyun Jang<sup>2</sup>, Dujin Lee<sup>1</sup>, Myeongseok Nam, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Meta AI"
   link:
     url: https://link.springer.com/article/10.1007/s11263-025-02590-5
     display: International Journal of Computer Vision (JCR IF Top 3%)
