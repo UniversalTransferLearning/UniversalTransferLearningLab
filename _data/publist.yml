@@ -133,8 +133,8 @@
   year: 2026
 
 - title: "Delving into Pre-training for Domain Transfer: A Broad Study of Pre-training for Domain Generalization and Domain Adaptation"
-  authors: "Jungmyung Wi<sup>1</sup>, Young Kyun Jang<sup>2</sup>, Dujin Lee<sup>1</sup>, Myeongseok Nam, Donghyun Kim<sup>1</sup>"
-  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Meta AI"
+  authors: "Jungmyung Wi<sup>1</sup>, Young Kyun Jang<sup>2</sup>, Dujin Lee<sup>1</sup>, Myeongseok Nam<sup>3</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>Meta AI &nbsp; <sup>3</sup>Ajou University"
   link:
     url: https://link.springer.com/article/10.1007/s11263-025-02590-5
     display: International Journal of Computer Vision (JCR IF Top 3%)
