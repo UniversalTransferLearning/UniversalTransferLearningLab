@@ -120,12 +120,14 @@ I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the
   <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <p><i>{{ member.info }}</i></p>
-  <p>
+  <p style="margin-bottom: 4px;">
     Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
-    {% if member.website %}
-    <br><a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">[Website]</a>
-    {% endif %}
   </p>
+  {% if member.website %}
+  <p style="margin-top: 0;">
+    <a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">[Website]</a>
+  </p>
+  {% endif %}
   <ul style="overflow: hidden">
 
   {% if member.number_educ == 1 %}
