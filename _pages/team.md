@@ -240,7 +240,7 @@ I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the
 
   <h4>{{ member.name }}</h4>
 
-  <div style="line-height: 1.25;"><i>{{ member.info }}</i>{% if member.website %}<br><a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">[Website]</a>{% endif %}
+  <div style="line-height: 1.25;"><i>{{ member.info }}</i>{% if member.website %}<br><a href="{{ member.website }}" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 5px;">[Website]</a>{% endif %}</div>
   </div>
 
 </div>
