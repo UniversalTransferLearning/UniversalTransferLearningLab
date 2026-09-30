@@ -27,11 +27,13 @@
   photo: Sojung.jpg
   info: PhD Student
   email: sojungan@korea.ac.kr
+  website: https://ssojungan.github.io/
 
 - name: Dong-Hee Kim
   photo: Donghee.jpg
   info: PhD Student
   email: dongheekim@korea.ac.kr
+  website: https://dongheekim-ai.github.io/
 
 - name: Dujin Lee
   photo: Dujin.jpg
@@ -72,6 +74,7 @@
   photo: Changbeen.jpg
   info: BS/MS Student
   email: twenty200@korea.ac.kr
+  website: https://changbeendata.github.io/
 
 - name: Sangwook Lee
   photo: Sangwook.jpg
