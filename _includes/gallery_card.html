@@ -1,0 +1,39 @@
+<div class="gallery-card">
+
+<div id="carousel-{{ include.activity.id }}" class="carousel slide" data-ride="carousel">
+
+<div class="carousel-inner" role="listbox">
+{% for photo in include.activity.photos %}
+<div class="item {% if forloop.first %}active{% endif %}">
+<img src="{{ site.url }}{{ site.baseurl }}{{ photo }}"
+     alt="{{ include.activity.title }}"
+     class="gallery-image"
+     style="display:block; width:100%; height:300px; object-fit:cover; object-position:center; margin:0; border-radius:0; box-shadow:none;">
+</div>
+{% endfor %}
+</div>
+
+{% if include.activity.photos.size > 1 %}
+<a class="left carousel-control"
+   href="#carousel-{{ include.activity.id }}"
+   role="button"
+   data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left"></span>
+</a>
+
+<a class="right carousel-control"
+   href="#carousel-{{ include.activity.id }}"
+   role="button"
+   data-slide="next">
+<span class="glyphicon glyphicon-chevron-right"></span>
+</a>
+{% endif %}
+
+</div>
+
+<div class="gallery-card-text">
+<h3>{{ include.activity.title }}</h3>
+<p>{{ include.activity.description }}</p>
+</div>
+
+</div>

@@ -95,3 +95,60 @@ firstp {
     margin-right: 30px;
 }
 
+
+
+/* Gallery */
+
+.gallery-year {
+  margin-bottom: 50px;
+}
+
+.gallery-year > h2 {
+  margin-bottom: 25px;
+}
+
+.gallery-card {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+}
+
+#gridid .gallery-card .carousel {
+  margin: 0;
+}
+
+#gridid .gallery-card .carousel-inner > .item > img.gallery-image {
+  display: block;
+  width: 100%;
+  height: 300px !important;
+  object-fit: cover;
+  object-position: center;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+
+.gallery-card-text {
+  padding: 15px 18px;
+}
+
+.gallery-card-text h3 {
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+
+.gallery-card-text p {
+  margin-bottom: 0;
+}
+
+/* Navbar */
+.navbar .container-fluid {
+  max-width: 1200px;
+}
+
+.navbar-nav > li > a {
+  padding-left: 10px;
+  padding-right: 10px;
+}

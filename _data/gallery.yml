@@ -1,0 +1,53 @@
+- year: 2026
+  activities:
+    - id: eccv-2026
+      title: "ECCV 2026"
+      description: "UTL Lab at ECCV 2026."
+      photos:
+        - /images/gallery/2026/eccv2026/562F24DF-87F4-4B19-B3B7-4B9BAE3ECB09-61319-000058AF493E5A0B.jpg
+
+    - id: icml-2026
+      title: "ICML 2026"
+      description: "UTL Lab at ICML 2026."
+      photos:
+        - /images/gallery/2026/icml2026/E23E67DC-18FA-4DF9-89B3-5437B76DAC4D_1_105_c.jpeg
+
+    - id: workshop-2026
+      title: "2nd Joint Workshop"
+      description: "Joint workshop with MAI Lab."
+      photos:
+        - /images/gallery/2026/workshop/IMG_7573.jpg
+        - /images/gallery/2026/workshop/IMG_7581.jpg
+
+    # - id: teachers-day-2026
+    #   title: "Teacher's Day"
+    #   description: "Celebrating Teacher's Day with UTL Lab."
+    #   photos:
+    #     -
+
+    - id: photoday-2026
+      title: "UTL Lab Group Photo"
+      description: "UTL Lab group photos."
+      photos:
+        - /images/gallery/2026/photoday/1776473377496.jpg
+        - /images/gallery/2026/photoday/1776473377598.jpg
+        - /images/gallery/2026/photoday/1776473377640.jpg
+        - /images/gallery/2026/photoday/1776473377668.jpg
+        - /images/gallery/2026/photoday/1776473384158.jpg
+
+- year: 2025
+  activities:
+    - id: prof-birthday-2025
+      title: "Birthday"
+      description: "Celebrating our professor's birthday."
+      photos:
+        - /images/gallery/2025/prof_birthday/CE4825DA-C987-4B10-9108-7678A8F0CF07_1_105_c.jpeg
+
+    - id: workshop-2025
+      title: "1st Workshop"
+      description: "UTL Lab's first workshop."
+      photos:
+        - /images/gallery/2025/workshop/1000076269.jpg
+        - /images/gallery/2025/workshop/1000076282.jpg
+        - /images/gallery/2025/workshop/IMG_6679.jpg
+        - /images/gallery/2025/workshop/1000076294.jpg
