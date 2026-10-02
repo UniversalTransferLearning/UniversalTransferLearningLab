@@ -10,6 +10,7 @@
       title: "ICML 2026"
       description: "UTL Lab at ICML 2026."
       photos:
+        - /images/gallery/2026/icml2026/스크린샷 2026-10-02 오후 5.58.30.png
         - /images/gallery/2026/icml2026/E23E67DC-18FA-4DF9-89B3-5437B76DAC4D_1_105_c.jpeg
 
     - id: workshop-2026
@@ -18,6 +19,10 @@
       photos:
         - /images/gallery/2026/workshop/IMG_7573.jpg
         - /images/gallery/2026/workshop/IMG_7581.jpg
+        - /images/gallery/2026/workshop/6C69BDB5-8579-4B0D-B0D0-BD5B8A70A9D9_1_105_c.jpeg
+        - /images/gallery/2026/workshop/85CB81F6-0F9D-43AE-8BC4-2D1732BADE6E_1_105_c.jpeg
+        - /images/gallery/2026/workshop/04032E79-7781-4A5F-B9A4-F1D95218CA80_1_105_c.jpeg
+        - /images/gallery/2026/workshop/최근 사진 보기.png
 
     # - id: teachers-day-2026
     #   title: "Teacher's Day"
@@ -47,7 +52,7 @@
       title: "1st Workshop"
       description: "UTL Lab's first workshop."
       photos:
+        - /images/gallery/2025/workshop/IMG_6679.jpg
         - /images/gallery/2025/workshop/1000076269.jpg
         - /images/gallery/2025/workshop/1000076282.jpg
-        - /images/gallery/2025/workshop/IMG_6679.jpg
         - /images/gallery/2025/workshop/1000076294.jpg
