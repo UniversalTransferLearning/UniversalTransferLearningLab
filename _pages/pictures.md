@@ -12,7 +12,10 @@ Jump to: [Leiden](#leiden), [ETHZ](#ethz), [Cornell](#cornell), [St Andrews](#st
 ## Leiden
 
 #### Timelapse of our STM assembling [(see LION news item)](https://www.physics.leidenuniv.nl/index.php?id=11573&news=867&type=lion&ln=EN):
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3iKvUMv1h5A" frameborder="0" allowfullscreen></iframe>
+<div class="embed-responsive embed-responsive-16by9" style="max-width: 560px;">
+  <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/3iKvUMv1h5A" frameborder="0" allowfullscreen></iframe>
+</div>
+
 
 #### Gallery
 (Right-click *'view image'* to see a larger image.)
