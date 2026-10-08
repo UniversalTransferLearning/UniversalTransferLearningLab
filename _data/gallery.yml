@@ -1,5 +1,14 @@
 - year: 2026
   activities:
+    - id: prof-birthday-2026
+      title: "🎉Birthday🎉"
+      description: "Celebrating our professor's birthday."
+      photos:
+        - /images/gallery/2026/prof_birthday_26/hbd26_1.jpg
+        - /images/gallery/2026/prof_birthday_26/hbd26_3.png
+        - /images/gallery/2026/prof_birthday_26/hbd26_2.png
+        - /images/gallery/2026/prof_birthday_26/hbd26_4.png
+    
     - id: eccv-2026
       title: "ECCV 2026"
       description: "UTL Lab at ECCV 2026."
@@ -39,15 +48,6 @@
         - /images/gallery/2026/photoday/1776473377640.jpg
         - /images/gallery/2026/photoday/1776473377668.jpg
         - /images/gallery/2026/photoday/1776473384158.jpg
-
-    - id: prof-birthday-2026
-      title: "🎉Birthday🎉"
-      description: "Celebrating our professor's birthday."
-      photos:
-        - /images/gallery/2026/prof_birthday_26/hbd26_1.jpg
-        - /images/gallery/2026/prof_birthday_26/hbd26_2.png
-        - /images/gallery/2026/prof_birthday_26/hbd26_3.png
-        - /images/gallery/2026/prof_birthday_26/hbd26_4.png
 
 
 - year: 2025
