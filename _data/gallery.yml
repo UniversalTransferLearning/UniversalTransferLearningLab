@@ -40,10 +40,20 @@
         - /images/gallery/2026/photoday/1776473377668.jpg
         - /images/gallery/2026/photoday/1776473384158.jpg
 
+    - id: prof-birthday-2026
+      title: "🎉Birthday🎉"
+      description: "Celebrating our professor's birthday."
+      photos:
+        - /images/gallery/2026/prof_birthday_26/hbd26_1.jpg
+        - /images/gallery/2026/prof_birthday_26/hbd26_2.png
+        - /images/gallery/2026/prof_birthday_26/hbd26_3.png
+        - /images/gallery/2026/prof_birthday_26/hbd26_4.png
+
+
 - year: 2025
   activities:
     - id: prof-birthday-2025
-      title: "Birthday"
+      title: "🎉Birthday🎉"
       description: "Celebrating our professor's birthday."
       photos:
         - /images/gallery/2025/prof_birthday/CE4825DA-C987-4B10-9108-7678A8F0CF07_1_105_c.jpeg
