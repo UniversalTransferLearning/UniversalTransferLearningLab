@@ -1045,6 +1045,8 @@ h4.news-more {
 // ---------------------------------------------------------------------------
 // Hiring popup
 // ---------------------------------------------------------------------------
+$notice-shadow: 0 0 0 1px rgba(0, 0, 0, .06), 0 5px 16px rgba(0, 0, 0, .12);
+
 .hire-popup-stack {
   --note-gap: 16px;
   display: grid;
@@ -1074,6 +1076,11 @@ h4.news-more {
     align-self: start;
     width: 100%;
     max-width: 380px;
+  }
+}
+
+@media (min-width: 1800px) {
+  .hire-popup-stack {
     max-height: calc(100vh - #{$navbar-height});
     max-height: calc(100dvh - #{$navbar-height});
     overflow-y: auto;
@@ -1082,6 +1089,7 @@ h4.news-more {
 
 @media (max-width: 1359.98px) {
   .hire-popup-stack {
+    position: relative;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     max-width: var(--maxw);
     margin: 0 auto;
@@ -1133,7 +1141,7 @@ h4.news-more {
 .hire-popup-card {
   position: relative;
   background: #fff;
-  box-shadow: 0 0 0 1px rgba(0, 0, 0, .06), 0 5px 16px rgba(0, 0, 0, .12);
+  box-shadow: $notice-shadow;
 }
 
 .hire-popup-x {
@@ -1221,10 +1229,33 @@ h4.news-more {
 }
 
 @media (max-width: 1799.98px) {
+  .hire-popup-stack { z-index: 3; }
+  .hire-popup:has(details[open]) { z-index: 1; }
   .hire-popup-body {
     padding: 18px 18px 14px;
     h3 { margin-bottom: 8px; }
     .hire-popup-lead { font-size: 20px; }
+    .hire-popup-copy[open] summary { margin-bottom: 0; }
+  }
+  .hire-popup-panel {
+    position: absolute;
+    top: calc(100% + 4px);
+    left: 0;
+    width: 100%;
+    padding: 16px 18px;
+    background: #fff;
+    box-shadow: $notice-shadow;
+  }
+}
+
+@media (min-width: 1360px) and (max-width: 1799.98px) {
+  .hire-popup-panel {
+    top: 0;
+    left: calc(100% + 8px);
+    width: 360px;
+  }
+  @media (max-height: 640px) {
+    .hire-popup-stack { position: relative; top: auto; }
   }
 }
 

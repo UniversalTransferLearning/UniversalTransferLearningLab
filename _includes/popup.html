@@ -2,7 +2,7 @@
   <div id="test-popup-overlay" class="hire-popup" role="dialog" aria-labelledby="hire-popup-title">
     <div class="hire-popup-card">
       <!-- 닫기 버튼 -->
-      <button onclick="closePopup(this)" class="hire-popup-x" aria-label="Close">&times;</button>
+      <button type="button" data-dismiss-notice class="hire-popup-x" aria-label="Close">&times;</button>
 
       <!-- 본문 -->
       <div class="hire-popup-body">
@@ -15,40 +15,44 @@
 
         <details class="hire-popup-copy">
           <summary>Research details</summary>
-          <p>
-            Our research pushes the frontier of Embodied AI, developing AI agents that understand their environment and execute complex robot manipulation tasks through integrated perception, reasoning, and planning.
-          </p>
-          <p>
-            Please check <a href="https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/" target="_blank">our recent work (IROS 2026)</a> on Embodied AI.
-          </p>
-          <p>
-            If you are interested, please feel free to reach out via email.
-          </p>
-          <div class="hire-popup-actions">
-            <button onclick="closePopup(this)" class="hire-popup-btn">닫기</button>
+          <div class="hire-popup-panel">
+            <p>
+              Our research pushes the frontier of Embodied AI, developing AI agents that understand their environment and execute complex robot manipulation tasks through integrated perception, reasoning, and planning.
+            </p>
+            <p>
+              Please check <a href="https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/" target="_blank">our recent work (IROS 2026)</a> on Embodied AI.
+            </p>
+            <p>
+              If you are interested, please feel free to reach out via email.
+            </p>
+            <div class="hire-popup-actions">
+              <button type="button" data-dismiss-notice class="hire-popup-btn">닫기</button>
+            </div>
           </div>
         </details>
       </div>
     </div>
   </div>
 
-  <div class="hire-popup" role="dialog" aria-labelledby="winter-interns-title">
+  <div id="winter-interns-notice" class="hire-popup" role="dialog" aria-labelledby="winter-interns-title">
     <div class="hire-popup-card">
-      <button type="button" onclick="closePopup(this)" class="hire-popup-x" aria-label="Close Winter Interns">&times;</button>
+      <button type="button" data-dismiss-notice class="hire-popup-x" aria-label="Close Winter Interns">&times;</button>
       <div class="hire-popup-body">
         <h3 id="winter-interns-title"><span class="hire-popup-lead">Winter Interns</span></h3>
         <p>8-week study (<time datetime="2026-12-21">Dec 21, 2026</time> – <time datetime="2027-02-26">Feb 26, 2027</time>)</p>
         <details class="hire-popup-copy">
           <summary>Topics</summary>
-          <ul class="hire-popup-topics">
-            <li>Vision-Language Models (VLM)</li>
-            <li>Video Understanding</li>
-            <li>Video/LLM Safety</li>
-            <li>Generative Models</li>
-            <li>VLM Agents</li>
-            <li>Agentic Robotics</li>
-            <li>Vision-Language-Action / World Action Models (VLA/WAM)</li>
-          </ul>
+          <div class="hire-popup-panel">
+            <ul class="hire-popup-topics">
+              <li>Vision-Language Models (VLM)</li>
+              <li>Video Understanding</li>
+              <li>MLLM Safety</li>
+              <li>Generative Models</li>
+              <li>VLM Agents</li>
+              <li>Agentic Robotics</li>
+              <li>Vision-Language-Action / World Action Models (VLA/WAM)</li>
+            </ul>
+          </div>
         </details>
         <p class="hire-popup-apply">To apply, see <a href="{{ '/openings' | relative_url }}">Openings</a>.</p>
       </div>
@@ -57,9 +61,50 @@
 </div>
 
 <script>
-  function closePopup(button) {
-    const stack = button.closest('.hire-popup-stack');
-    button.closest('.hire-popup').hidden = true;
-    stack.hidden = !stack.querySelector('.hire-popup:not([hidden])');
-  }
+  (() => {
+    const stack = document.querySelector('.hire-popup-stack');
+    const notices = [...stack.querySelectorAll('.hire-popup')];
+    const storageKey = 'utl.hiring-notices.navigation';
+    const entryKey = () => window.navigation?.currentEntry?.key || location.href;
+
+    function updateStack() {
+      const dismissed = notices.filter(notice => notice.hidden).map(notice => notice.id);
+      stack.hidden = dismissed.length === notices.length;
+      try {
+        if (dismissed.length) {
+          sessionStorage.setItem(storageKey, JSON.stringify({ from: entryKey(), dismissed }));
+        } else {
+          sessionStorage.removeItem(storageKey);
+        }
+      } catch { /* Closing a banner still works if tab storage is unavailable. */ }
+    }
+
+    stack.addEventListener('click', event => {
+      const button = event.target.closest('[data-dismiss-notice]');
+      if (!button) return;
+      button.closest('.hire-popup').hidden = true;
+      updateStack();
+    });
+
+    function restore(navigationType) {
+      let dismissed = [];
+      try {
+        const previous = JSON.parse(sessionStorage.getItem(storageKey));
+        const internalLink = navigationType === 'navigate' && history.length > 1 && document.referrer &&
+          new URL(document.referrer).origin === location.origin;
+        // Returning to the last lab entry from another site starts a new visit.
+        const internalHistory = navigationType === 'back_forward' && previous?.from !== entryKey();
+        if ((internalLink || internalHistory) && Array.isArray(previous?.dismissed)) {
+          dismissed = previous.dismissed;
+        }
+      } catch { /* Start with both banners visible if no state can be restored. */ }
+      notices.forEach(notice => { notice.hidden = dismissed.includes(notice.id); });
+      updateStack();
+    }
+
+    restore(performance.getEntriesByType('navigation')[0]?.type || 'navigate');
+    window.addEventListener('pageshow', event => {
+      if (event.persisted) restore('back_forward');
+    });
+  })();
 </script>
