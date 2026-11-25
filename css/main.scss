@@ -1047,25 +1047,48 @@ h4.news-more {
 // ---------------------------------------------------------------------------
 .hire-popup-stack {
   --note-gap: 16px;
-  position: fixed;
-  top: $navbar-height;
-  left: 0;
   display: grid;
   gap: var(--note-gap);
   padding: var(--note-gap);
-  width: calc(348px + var(--note-gap) + var(--note-gap));
-  max-width: 100%;
-  max-height: calc(100vh - #{$navbar-height});
-  max-height: calc(100dvh - #{$navbar-height});
-  overflow-y: auto;
-  z-index: $zindex-navbar-fixed - 1;
-  pointer-events: none;
+  align-items: start;
+  &:not(:has(.hire-popup:not([hidden]))) { display: none; }
+}
+
+@media (min-width: 1360px) {
+  .site-content:has(.hire-popup:not([hidden])) {
+    display: grid;
+    grid-template-columns: minmax(272px, 1fr) minmax(0, var(--maxw)) minmax(0, 1fr);
+  }
+  .site-content > main { min-width: 0; }
+  .hire-popup-stack {
+    position: sticky;
+    top: $navbar-height;
+    align-self: start;
+    width: 100%;
+    max-width: 380px;
+    max-height: calc(100vh - #{$navbar-height});
+    max-height: calc(100dvh - #{$navbar-height});
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 1359.98px) {
+  .hire-popup-stack {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    max-width: var(--maxw);
+    margin: 0 auto;
+    padding: 24px 24px 0;
+  }
+  .hire-popup-stack:has(.hire-popup:not([hidden])) ~ .site-main { padding-top: 32px; }
+}
+
+@media (max-width: 599.98px) {
+  .hire-popup-stack { grid-template-columns: minmax(0, 1fr); padding: 18px 24px 0; }
 }
 
 .hire-popup {
   position: relative;
   min-width: 0;
-  pointer-events: auto;
   animation: popup-in .35s ease both;
 
   &::before, &::after {
@@ -1187,6 +1210,14 @@ h4.news-more {
 
 @media (max-width: 480px) {
   .hire-popup-stack { --note-gap: 10px; }
+}
+
+@media (max-width: 1799.98px) {
+  .hire-popup-body {
+    padding: 18px 18px 14px;
+    h3 { margin-bottom: 8px; }
+    .hire-popup-lead { font-size: 20px; }
+  }
 }
 
 // ---------------------------------------------------------------------------
