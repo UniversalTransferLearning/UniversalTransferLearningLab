@@ -1,80 +1,63 @@
-<!-- POPUP -->
-<div id="test-popup-overlay" style="
-  display: none;
-  position: fixed;
-  top: 80px; left: 20px;
-  z-index: 9999;
-">
-  <div style="
-    background: #fff;
-    border-radius: 10px;
-    width: 380px;
-    max-width: calc(100vw - 40px);
-    position: relative;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.15);
-    overflow: hidden;
-    border-top: 4px solid #2563eb;
-  ">
-    <!-- 닫기 버튼 -->
-    <button onclick="closePopup()" style="
-      position: absolute;
-      top: 10px; right: 14px;
-      background: none;
-      border: none;
-      font-size: 20px;
-      cursor: pointer;
-      color: #bbb;
-      line-height: 1;
-    ">&times;</button>
+<div class="hire-popup-stack">
+  <div id="test-popup-overlay" class="hire-popup" role="dialog" aria-labelledby="hire-popup-title">
+    <div class="hire-popup-card">
+      <!-- 닫기 버튼 -->
+      <button onclick="closePopup(this)" class="hire-popup-x" aria-label="Close">&times;</button>
 
-    <!-- 본문 -->
-    <div style="padding: 24px 28px 20px;">
+      <!-- 본문 -->
+      <div class="hire-popup-body">
 
-      <!-- 협업 배지 -->
-      <div style="display: inline-block; background: #EEF4FF; border-radius: 20px; padding: 4px 12px; margin-bottom: 14px;">
-        <span style="font-size: 11px; color: #2563eb; font-weight: 600; letter-spacing: 0.3px;">
-          Embodied AI Research · In collaboration with Microsoft Research &amp; UW–Madison
-        </span>
+        <h3 id="hire-popup-title">
+          <span class="hire-popup-lead">We Are Hiring</span>
+          M.S./Ph.D. in <strong>Embodied AI</strong>
+        </h3>
+        <p class="hire-popup-credit">Embodied AI Research · In collaboration with Microsoft Research &amp; UW–Madison</p>
+
+        <details class="hire-popup-copy">
+          <summary>Research details</summary>
+          <p>
+            Our research pushes the frontier of Embodied AI, developing AI agents that understand their environment and execute complex robot manipulation tasks through integrated perception, reasoning, and planning.
+          </p>
+          <p>
+            Please check <a href="https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/" target="_blank">our recent work (IROS 2026)</a> on Embodied AI.
+          </p>
+          <p>
+            If you are interested, please feel free to reach out via email.
+          </p>
+          <div class="hire-popup-actions">
+            <button onclick="closePopup(this)" class="hire-popup-btn">닫기</button>
+          </div>
+        </details>
       </div>
+    </div>
+  </div>
 
-      <h3 style="margin: 0 0 10px; color: #1a1a2e; font-size: 15px; line-height: 1.4;">
-        We Are Hiring — M.S./Ph.D. in <strong>Embodied AI</strong>
-      </h3>
-      <hr style="margin: 0 0 14px; border: none; border-top: 1px solid #eee;">
-
-      <p style="color: #555; line-height: 1.65; font-size: 13.5px; margin: 0 0 10px;">
-        Our research pushes the frontier of Embodied AI, developing AI agents that understand their environment and execute complex robot manipulation tasks through integrated perception, reasoning, and planning.
-      </p>
-      <p style="color: #555; line-height: 1.65; font-size: 13.5px; margin: 0 0 10px;">
-        Please check <a href="https://www.microsoft.com/en-us/research/blog/groundedplanbench-spatially-grounded-long-horizon-task-planning-for-robot-manipulation/" target="_blank" style="color: #2563eb; font-weight: 600;">our recent work (IROS 2026)</a> on Embodied AI.
-      </p>
-      <p style="color: #555; line-height: 1.65; font-size: 13.5px; margin: 0 0 20px;">
-        If you are interested, please feel free to reach out via email.
-      </p>
-
-      <div style="text-align: right;">
-        <button onclick="closePopup()" style="
-          background: #2563eb;
-          color: #fff;
-          border: none;
-          padding: 8px 20px;
-          border-radius: 6px;
-          cursor: pointer;
-          font-size: 13px;
-          font-weight: 600;
-        ">닫기</button>
+  <div class="hire-popup" role="dialog" aria-labelledby="winter-interns-title">
+    <div class="hire-popup-card">
+      <button type="button" onclick="closePopup(this)" class="hire-popup-x" aria-label="Close Winter Interns">&times;</button>
+      <div class="hire-popup-body">
+        <h3 id="winter-interns-title"><span class="hire-popup-lead">Winter Interns</span></h3>
+        <p>8-week study (<time datetime="2026-12-21">Dec 21, 2026</time> – <time datetime="2027-02-26">Feb 26, 2027</time>)</p>
+        <details class="hire-popup-copy">
+          <summary>Topics</summary>
+          <ul class="hire-popup-topics">
+            <li>Vision-Language Models (VLM)</li>
+            <li>Video Understanding</li>
+            <li>Video/LLM Safety</li>
+            <li>Generative Models</li>
+            <li>VLM Agents</li>
+            <li>Agentic Robotics</li>
+            <li>Vision-Language-Action / World Action Models (VLA/WAM)</li>
+          </ul>
+        </details>
+        <p class="hire-popup-apply">To apply, see <a href="{{ '/openings' | relative_url }}">Openings</a>.</p>
       </div>
     </div>
   </div>
 </div>
 
 <script>
-  function closePopup() {
-    document.getElementById('test-popup-overlay').style.display = 'none';
-    sessionStorage.setItem('recruitment-popup-closed', '1');
-  }
-
-  if (!sessionStorage.getItem('recruitment-popup-closed')) {
-    document.getElementById('test-popup-overlay').style.display = 'block';
+  function closePopup(button) {
+    button.closest('.hire-popup').hidden = true;
   }
 </script>

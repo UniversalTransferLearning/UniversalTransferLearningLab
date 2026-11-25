@@ -1,0 +1,20 @@
+{%- assign preview_path = include.photo | append: '.preview.webp' -%}
+{%- assign preview = site.static_files | where: 'path', preview_path | first -%}
+{%- comment -%}A local replacement should appear immediately. Production checkouts give files new timestamps.{%- endcomment -%}
+{%- assign source_time = nil -%}
+{%- if jekyll.environment == 'development' and preview -%}
+  {%- assign original = site.static_files | where: 'path', include.photo | first -%}
+  {%- assign source_time = original.modified_time -%}
+  {%- if source_time > preview.modified_time -%}{%- assign preview = nil -%}{%- endif -%}
+{%- endif -%}
+{%- if preview -%}
+src="{{ preview.path | relative_url }}"
+{%- if include.sizes -%}
+  {%- assign retina_path = include.photo | append: '.retina.webp' -%}
+  {%- assign retina = site.static_files | where: 'path', retina_path | first -%}
+  {%- if retina and source_time and source_time > retina.modified_time -%}{%- assign retina = nil -%}{%- endif -%}
+  {%- if retina %} srcset="{{ preview.path | relative_url }} 600w, {{ retina.path | relative_url }} 1080w" sizes="{{ include.sizes }}"{% endif -%}
+{%- endif -%}
+{%- else -%}
+src="{{ include.photo | relative_url }}"
+{%- endif -%}

@@ -1,0 +1,23 @@
+<svg class="research-drawing" viewBox="0 0 320 172" role="img" aria-labelledby="adaptation-diagram-title">
+  <title id="adaptation-diagram-title">Low-rank adaptation adds the product of two trainable factors B and A to the frozen weight matrix W₀.</title>
+  <defs>
+    <pattern id="frozen-weight-cells" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#e2e1dd"/>
+      <path d="M0 10V0h10" fill="none" stroke="#a9a7a2" stroke-width="1.2"/>
+    </pattern>
+    <pattern id="trainable-weight-cells" width="10" height="10" patternUnits="userSpaceOnUse">
+      <rect width="10" height="10" fill="#e8cdd2"/>
+      <path d="M0 10V0h10" fill="none" stroke="#af6976" stroke-width="1.2"/>
+    </pattern>
+  </defs>
+  <text class="diagram-equation" x="160" y="31" text-anchor="middle">W = W₀ + BA</text>
+  <rect x="30" y="50" width="60" height="60" fill="url(#frozen-weight-cells)" stroke="#93918d"/>
+  <g fill="url(#trainable-weight-cells)" stroke="#a95d6c">
+    <rect x="150" y="50" width="20" height="60"/><rect x="230" y="70" width="60" height="20"/>
+  </g>
+  <path d="M111 80h14m-7-7v14m76-13 12 12m0-12-12 12" fill="none" stroke="#5f5e5d" stroke-width="1.6" stroke-linecap="round"/>
+  <path d="M30 119v5h60v-5m60 0v5h140v-5" fill="none" stroke="#b6b1ab"/>
+  <g class="diagram-label" text-anchor="middle">
+    <text x="60" y="148">Frozen weights</text><text x="220" y="148">Trainable factors</text>
+  </g>
+</svg>

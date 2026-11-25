@@ -6,23 +6,21 @@ sitemap: false
 permalink: /gallery/
 ---
 
-<h1>Gallery</h1>
+<div class="gallery-archive" markdown="0">
+  <header class="gallery-header">
+    <h1>Gallery</h1>
+  </header>
 
-{% for group in site.data.gallery %}
+  {% for group in site.data.gallery %}
+  <section class="gallery-year" aria-labelledby="gallery-{{ group.year }}">
+    <h2 id="gallery-{{ group.year }}">{{ group.year }}</h2>
+    <div class="gallery-grid">
+      {% for activity in group.activities %}
+      {% include gallery_card.html activity=activity %}
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
 
-<div class="gallery-year">
-<h2>{{ group.year }}</h2>
-
-<div class="row">
-{% for activity in group.activities %}
-
-<div class="col-sm-6">
-{% include gallery_card.html activity=activity %}
 </div>
-
-{% endfor %}
-</div>
-
-</div>
-
-{% endfor %}
+<script src="{{ '/js/gallery.js' | relative_url }}" defer></script>

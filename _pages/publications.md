@@ -9,7 +9,7 @@ permalink: /publications/
  
 
 <h1> Publications </h1>
-Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=en"> full list of publications.</a>
+<p class="page-intro">Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=en"> full list of publications.</a></p>
 
 
 [//]: # (## Group highlights)
@@ -44,7 +44,7 @@ Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=e
 
 [//]: # (  <p><em>{{ publi.authors }}</em></p>)
 
-[//]: # (  <p><strong><a href="{{ publi.link.url }}" style="font-size: 14px;">{{ publi.link.display }}</a></strong></p>)
+[//]: # (  <p><strong><a href="{{ publi.link.url }}" style="font-size: 14px;">{{ publi.link.display | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a></strong></p>)
 
 [//]: # (  <p class="text-danger"><strong> {{ publi.news1 }}</strong></p>)
 
@@ -90,27 +90,22 @@ Here is the <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl=e
 [//]: # (<em>Milan P Allan</em><br /> Methods of manufacturing superconductor and phononic elements <br /> <a href="https://patents.google.com/patent/US10439125B2/en?inventor=Milan+ALLAN&oq=inventor:&#40;Milan+ALLAN&#41;">US10439125B2 &#40;2016&#41;</a>)
 
 
+<div class="pub-list" markdown="0">
 {% assign year_last = 0 %}
 {% for publi in site.data.publist %}
-
-{% if year_last != publi.year %}
-{% if year_last != 0 %}
-{% endif %}
-{% assign year_last = publi.year %}
-<h3>{{ publi.year }}</h3>
-{% assign div_opened = 1 %}
+{% if year_last != publi.year %}{% assign year_last = publi.year %}
+<h3 class="pub-year">{{ publi.year }}</h3>
 {% endif %}
 {% assign formatted_authors = publi.authors %}
 {% for author in site.data.utl_authors %}
-  {% capture bold_author %}<span style="font-weight: 900; -webkit-text-stroke: 0.15px currentColor;">{{ author }}</span>{% endcapture %}
+  {% capture bold_author %}<span class="utl-author">{{ author }}</span>{% endcapture %}
   {% assign formatted_authors = formatted_authors | replace: author, bold_author %}
 {% endfor %}
-<span style="font-size: 16px;">{{ publi.title }}</span><br />
-<em><span style="font-size: 14px;">{{ formatted_authors }}</span></em><br />
-{% if publi.affiliations %}<span class="pub-affiliations">{{ publi.affiliations }}</span><br />{% endif %}<a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
+<div class="pub-item">
+<div class="pub-title">{{ publi.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+<div class="pub-authors">{{ formatted_authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+{% if publi.affiliations %}<div class="pub-affiliations">{{ publi.affiliations }}</div>{% endif %}
+<div class="pub-venue">{% if publi.link.url %}<a href="{{ publi.link.url }}">{{ publi.link.display | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>{% else %}<span>{{ publi.link.display | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</div>
+</div>
 {% endfor %}
-
-
-{% if div_opened == 1 %}
-{% endif %}
+</div>

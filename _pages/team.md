@@ -14,85 +14,56 @@ permalink: /team/
 [//]: # (Jump to [staff]&#40;#staff&#41;, [master and bachelor students]&#40;#master-and-bachelor-students&#41;, [alumni]&#40;#alumni&#41;, [administrative support]&#40;#administrative-support&#41;, [lab visitors]&#40;#lab-visitors&#41;.)
 
 ## Professor
-{% assign number_printed = 0 %}
 {% for member in site.data.team_members %}
-
-{% assign even_odd = number_printed | modulo: 1 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-12">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-
-[//]: # (  <i>{{ member.info }} <!--<br>email: <{{ member.email }}></i> -->)
-  {{ member.info }} <!--<br>email: <{{ member.email }}> --> <br />
-  {{ member.dept }}  <br />
-  {{ member.school }}
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 5 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  <li> {{ member.education5 }} </li>
-  {% endif %}
-
-  </ul>
+<div class="pi-card" markdown="0">
+  <div class="pi-photo">
+    {% assign portrait = member.photo | prepend: '/images/teampic/' %}
+    <img {% include display_src.html photo=portrait %} alt="{{ member.name | escape }}" decoding="async" />
+  </div>
+  <div class="pi-info">
+    <h4>{{ member.name }}</h4>
+    <p class="pi-meta">
+    {{ member.info }} <!--<br>email: <{{ member.email }}> --> <br />
+    {{ member.dept }}  <br />
+    {{ member.school }}
+    </p>
+    {% if member.number_educ and member.number_educ > 0 %}
+    <ul class="pi-cv">
+    {% for i in (1..member.number_educ) %}{% assign key = 'education' | append: i %}
+    <li> {{ member[key] }} </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
 
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
+<div class="pi-bio">
 
 I joined the Department of Artificial Intelligence at Korea University in Fall 2023. Please send an <a href = "mailto: d_kim@korea.ac.kr">email</a> if you are interested in our lab and in working with me.
 
 I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the Image and Video Computing Group at Boston University, advised by Prof. Stan Sclaroff and Prof. Kate Saenko. I received my Master's degree in Computer Science from University of Southern California. I had been working on 3D face modeling and recognition with Prof. Gerard Medioni and Dr. Jongmoo Choi in Computer Vision Group. My research interests focus on representation learning in Computer Vision and Deep Learning. Here is my <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl">Google Scholar</a>.
 
-**We are  looking for new MS/PhD, PhD, and Postdocs to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **!** <br>
-
-<div class="embed-responsive embed-responsive-16by9" style="max-width: 700px; margin: 0 auto 20px;">
-  <iframe class="embed-responsive-item"
-    src="https://www.youtube.com/embed/UFckOenT790"
-    title="YouTube video player" frameborder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+
+<div class="cta-box">
+
+**We are  looking for new MS/PhD, PhD, and Postdocs to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/openings) **!**
+
+</div>
+
+<div class="embed-responsive embed-responsive-16by9 video-frame" markdown="0">
+  <a class="video-preview" href="https://www.youtube.com/watch?v=UFckOenT790" aria-label="Play KTN's Korea University AI Department video">
+    <img src="{{ '/images/teampic/ktn-video-preview.jpg' | relative_url }}" alt="" loading="lazy" decoding="async">
+  </a>
+  <template>
+    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/UFckOenT790?autoplay=1"
+      title="KTN – Korea University AI Department"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </template>
+</div>
+<script defer src="{{ '/js/team-video.js' | relative_url }}"></script>
 
 ##  Students
 
@@ -106,158 +77,66 @@ I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the
 
 [//]: # (Hyunsoo Kim <br>) -->
 
-
-{% assign number_printed = 0 %}
+<div class="people-grid" markdown="0">
 {% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive student-photo" />
-  <h4>{{ member.name }}</h4>
-  <p><i>{{ member.info }}</i></p>
-  <p style="margin-bottom: 4px;">
-    Email: <a href="mailto:{{ member.email }}">{{ member.email }}</a>
-  </p>
-  {% if member.website %}
-  <p style="margin-top: 0;">
-    <a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">🔗 Website</a>
-  </p>
-  {% endif %}
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
+<div class="person-card">
+  <div class="person-photo">
+    {% assign portrait = member.photo | prepend: '/images/teampic/' %}
+    <img {% include display_src.html photo=portrait %} alt="{{ member.name | escape }}" loading="lazy" decoding="async" />
+  </div>
+  <div class="person-body">
+    <h4>{{ member.name }}</h4>
+    <p class="person-role">{{ member.info }}</p>
+    <p class="person-email">
+      <span class="email-label">Email:</span> <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+    </p>
+    {% if member.website %}
+    <p class="person-link">
+      <a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">🔗 Website</a>
+    </p>
+    {% endif %}
+    {% if member.number_educ and member.number_educ > 0 %}
+    <ul class="person-cv">
+    {% for i in (1..member.number_educ) %}{% assign key = 'education' | append: i %}
+    <li> {{ member[key] }} </li>
+    {% endfor %}
+    </ul>
+    {% endif %}
+  </div>
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
-<br />
 
 ## Visitors
 
-{% assign number_printed = 0 %}
+<div class="people-list" markdown="0">
 {% for member in site.data.ug_students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
+<div class="person-row">
   <!-- <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" /> -->
   <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-  {% if member.number_educ == 1 %}
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 2 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 3 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  {% if member.number_educ == 4 %}
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
+  <p class="person-role">{{ member.info }}</p> <!-- <br>email: <{{ member.email }}></i> -->
+  {% if member.number_educ and member.number_educ > 0 %}
+  <ul class="person-cv">
+  {% for i in (1..member.number_educ) %}{% assign key = 'education' | append: i %}
+  <li> {{ member[key] }} </li>
+  {% endfor %}
   </ul>
+  {% endif %}
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
-<br />
 
 ## Alumni
 
-{% assign number_printed = 0 %}
+<div class="people-list" markdown="0">
 {% for member in site.data.alumni_members %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-
+<div class="person-row">
   <h4>{{ member.name }}</h4>
-
-  <div style="line-height: 1.25;"><i>{{ member.info }}</i>{% if member.website %}<br><a href="{{ member.website }}" target="_blank" rel="noopener noreferrer" style="display: inline-block; margin-top: 5px;">🔗 Website</a>{% endif %}
-  </div>
-
+  <p class="person-role">{{ member.info }}</p>
+  {% if member.website %}<p class="person-link"><a href="{{ member.website }}" target="_blank" rel="noopener noreferrer">🔗 Website</a></p>{% endif %}
 </div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-</div>
-{% endif %}
-
 {% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
 </div>
-{% endif %}
-<br />
 
 <!-- ## Former students -->
 

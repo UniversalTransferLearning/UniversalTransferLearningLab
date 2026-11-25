@@ -6,30 +6,36 @@ sitemap: false
 permalink: /openings
 ---
 
+<article class="openings-page" markdown="1">
+
 # Open positions
 
-**We are currently open for Undergraduate Interns, MS/PhD, PhD, and postdoc applications related to the topic of transfer learning.**
+We are currently open for **Undergraduate Interns, MS/PhD, PhD, and postdoc** applications related to the topic of transfer learning.
 
+## Our lab is looking for students who
 
-<h4>Our lab is looking for students who</h4>
-<ul>
-  <li>possess enthusiasm, skill, and determination to join our group!</li>
-  <li>are expected to publish 1+ paper in top-tier conferences</li>
-</ul>
+- possess enthusiasm, skill, and determination to join our group!
+- are expected to publish **1+ paper in top-tier conferences**
 
-<h4>Application (For joining us)</h4>
+## Application (For joining us)
 
-If you have an interest in collaborating with us as a Undergraduate, MS, MS/PhD, PhD student, or postdoctoral researcher, kindly reach out to me via [email](mailto:d_kim@korea.ac.kr) with the following documents:
+If you are interested in joining us as an undergraduate intern, M.S./Ph.D. or Ph.D. student, or postdoctoral researcher, please submit our **[application form](https://docs.google.com/forms/d/e/1FAIpQLSfPdR7XJZu1xOay45aA4ROZkiOlBPa-dKOI2D4tabEE_i3OBQ/viewform?usp=header)**.
 
-- CV  
-- Motivation for applying  
-- Brief description of your application plan (e.g., intended program and timeline)  
-- Academic transcripts (Undergraduate and graduate, if applicable)
-- Your main research interests  
+<div class="winter-internship" markdown="1">
 
-As part of the application process, you will typically start by giving seminar presentations on recent papers in our research area so that we can see how well you fit with the lab in terms of research style and communication. After that, you will work on a small research project and regularly present your progress within the group.
+Selected student applicants will join our **Winter Internship**, an 8-week study (<time datetime="2026-12-21">Dec 21, 2026</time> – <time datetime="2027-02-26">Feb 26, 2027</time>).
 
-The application timeline for Spring 2027 is in <a href="http://xai.korea.ac.kr/kor/borad/notice?viewMode=view&ca=&sel_search=&txt_search=&page=1&idx=146">here</a>. 
+- Weekly meetings with graduate students
+- Depending on progress, interns may join an ongoing research project
+- Final presentation in the last week
+
+</div>
+
+For any questions, feel free to reach out via [email](mailto:d_kim@korea.ac.kr).
+
+The application timeline for Spring 2027 is [here](http://xai.korea.ac.kr/kor/borad/notice?viewMode=view&ca=&sel_search=&txt_search=&page=1&idx=146).
+
+</article>
 
 [//]: # ()
 [//]: # (### Past open positions)

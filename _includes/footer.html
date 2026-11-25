@@ -1,40 +1,29 @@
-<div id="footer" class="panel">
-  <div class="panel-footer">
+<footer id="footer" class="site-footer">
 	<div class="container-fluid">
 	  <div class="row">
-		<div class="col-sm-4">
-
-		  Contact: <br />
+		<div class="col-sm-4 footer-col">
+		  <span class="footer-label">Contact:</span>
             d_kim <em>at</em> korea.ac.kr<br />
           Tel:+82-02-3290-4687<br />
-
 		</div>
-		<div class="col-sm-4">
-		  Address: <br />
+		<div class="col-sm-4 footer-col">
+		  <span class="footer-label">Address:</span>
            Room 405, Woojung Hall of Informatics<br />
             145 Anam-ro, Seongbuk-gu, Seoul <br />
             Republic of Korea <br />
 <!--		  - <a href="http://www.nwo.nl/en/research-and-results/programmes/Talent+Scheme">Vidi </a> and <a href='https://www.fom.nl/en/news/press-releases/2016/11/18/28634/'>Projectruimte</a> grants from <a href="http://www.nwo.nl">NWO</a> <br />-->
 <!--		  - <a href="https://www.universiteitleiden.nl/en/research/research-projects/science/frontiers-of-nanoscience-nanofront">Frontier of Nanosciences</a>, a gravity program from <a href="http://www.nwo.nl">NWO</a>-->
 		</div>
-		<div class="col-sm-4">
+		<div class="col-sm-4 footer-col footer-logo">
 		  <a href="http://xai.korea.ac.kr/" target="_blank">
-			<img src="../images/logopic/logo_KU.png" class="img-responsive" width="70%" style="float: right" />
-			</a>
+			<img src="{{ '/images/logopic/ku-emblem.svg' | relative_url }}" alt="Korea University" width="76" height="99" />
+		  </a>
 		</div>
-          <style>
-            .my-custom-width2{
-               width:240px;
-            }
-
-        </style>
-
 	  </div>
 	</div>
-  </div>
-</div>
+</footer>
 
 {% include popup.html %}
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
+<script defer src="{{ '/js/jquery-1.11.3.min.js' | relative_url }}"></script>
+<script defer src="{{ '/js/bootstrap.min.js' | relative_url }}"></script>
