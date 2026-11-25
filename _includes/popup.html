@@ -58,6 +58,8 @@
 
 <script>
   function closePopup(button) {
+    const stack = button.closest('.hire-popup-stack');
     button.closest('.hire-popup').hidden = true;
+    stack.hidden = !stack.querySelector('.hire-popup:not([hidden])');
   }
 </script>
