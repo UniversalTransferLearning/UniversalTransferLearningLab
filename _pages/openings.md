@@ -31,8 +31,6 @@ Selected student applicants will join our **Winter Internship**, an 8-week study
 
 </div>
 
-For any questions, feel free to reach out via [email](mailto:d_kim@korea.ac.kr).
-
 The application timeline for Spring 2027 is [here](http://xai.korea.ac.kr/kor/borad/notice?viewMode=view&ca=&sel_search=&txt_search=&page=1&idx=146).
 
 </article>

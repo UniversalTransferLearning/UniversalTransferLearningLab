@@ -23,7 +23,7 @@ permalink: /team/
   <div class="pi-info">
     <h4>{{ member.name }}</h4>
     <p class="pi-meta">
-    {{ member.info }} <!--<br>email: <{{ member.email }}> --> <br />
+    {{ member.info }} <br />
     {{ member.dept }}  <br />
     {{ member.school }}
     </p>
@@ -40,7 +40,7 @@ permalink: /team/
 
 <div class="pi-bio">
 
-I joined the Department of Artificial Intelligence at Korea University in Fall 2023. Please send an <a href = "mailto: d_kim@korea.ac.kr">email</a> if you are interested in our lab and in working with me.
+I joined the Department of Artificial Intelligence at Korea University in Fall 2023.
 
 I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the Image and Video Computing Group at Boston University, advised by Prof. Stan Sclaroff and Prof. Kate Saenko. I received my Master's degree in Computer Science from University of Southern California. I had been working on 3D face modeling and recognition with Prof. Gerard Medioni and Dr. Jongmoo Choi in Computer Vision Group. My research interests focus on representation learning in Computer Vision and Deep Learning. Here is my <a href="https://scholar.google.com/citations?user=UsqNPH4AAAAJ&hl">Google Scholar</a>.
 
