@@ -1,3 +1,12 @@
+- title: "Personalized Visual Representation Alignment for Generative Multimodal Recommendation"
+  authors: "Seonwoo Choi<sup>1</sup>, Kibum Kim<sup>2</sup>, Chanyoung Park<sup>2</sup>, Donghyun Kim<sup>1</sup>"
+  affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>KAIST"
+  link:
+    url:
+    display: Winter Conference on Applications of Computer Vision (WACV)
+  highlight: 0
+  year: 2027
+
 - title: "Your Embedding Model Is SMARTer Than You Think"
   authors: "Jianrui Zhang<sup>2*</sup>, Hyun Jung Lee<sup>1*</sup>, Sukanta Ganguly<sup>3</sup>, Tae-Eui Kam<sup>1</sup>, Donghyun Kim<sup>1†</sup>, Yong Jae Lee<sup>2†</sup>"
   affiliations: "<sup>1</sup>Korea University &nbsp; <sup>2</sup>University of Wisconsin-Madison &nbsp; <sup>3</sup>NetApp"
