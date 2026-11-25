@@ -117,7 +117,7 @@ I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the
 {% endif %}
 
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/teampic/{{ member.photo }}" class="img-responsive student-photo" />
   <h4>{{ member.name }}</h4>
   <p><i>{{ member.info }}</i></p>
   <p style="margin-bottom: 4px;">
