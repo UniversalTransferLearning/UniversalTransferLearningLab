@@ -19,7 +19,7 @@ We are currently open for **Undergraduate Interns, MS/PhD, PhD, and postdoc** ap
 
 ## Application (For joining us)
 
-If you are interested in joining us as an undergraduate intern, M.S./Ph.D. or Ph.D. student, or postdoctoral researcher, please submit our **[application form](https://docs.google.com/forms/d/e/1FAIpQLSfPdR7XJZu1xOay45aA4ROZkiOlBPa-dKOI2D4tabEE_i3OBQ/viewform?usp=header)**.
+If you are interested in joining us as an undergraduate intern, M.S./Ph.D. or Ph.D. student, or postdoctoral researcher, please submit our **[application form](https://forms.gle/2WMYz3yTwwaGa4Cr5)**.
 
 <div class="winter-internship" markdown="1">
 

@@ -101,11 +101,19 @@ permalink: /publications/
   {% capture bold_author %}<span class="utl-author">{{ author }}</span>{% endcapture %}
   {% assign formatted_authors = formatted_authors | replace: author, bold_author %}
 {% endfor %}
+{% assign paper_title = publi.title | markdownify | remove: '<p>' | remove: '</p>' | strip %}
+{% assign paper_url = publi.link.url | strip %}
 <div class="pub-item">
-<div class="pub-title">{{ publi.title | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
+<div class="pub-title">
+{% if paper_url != empty %}
+  <a href="{{ paper_url | escape }}">{{ paper_title }}&nbsp;<span class="glyphicon glyphicon-link pub-link-mark" aria-hidden="true"></span></a>
+{% else %}
+  {{ paper_title }}
+{% endif %}
+</div>
 <div class="pub-authors">{{ formatted_authors | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
 {% if publi.affiliations %}<div class="pub-affiliations">{{ publi.affiliations }}</div>{% endif %}
-<div class="pub-venue">{% if publi.link.url %}<a href="{{ publi.link.url }}">{{ publi.link.display | markdownify | remove: '<p>' | remove: '</p>' | strip }}</a>{% else %}<span>{{ publi.link.display | markdownify | remove: '<p>' | remove: '</p>' | strip }}</span>{% endif %}</div>
+<div class="pub-venue">{{ publi.link.display | markdownify | remove: '<p>' | remove: '</p>' | strip }}</div>
 </div>
 {% endfor %}
 </div>

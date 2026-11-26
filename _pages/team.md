@@ -52,7 +52,7 @@ I was a research staff member at MIT-IBM Watson AI Lab. I obtained my PhD in the
 
 </div>
 
-<div class="embed-responsive embed-responsive-16by9 video-frame" markdown="0">
+<div id="team-video" class="embed-responsive video-frame" markdown="0">
   <a class="video-preview" href="https://www.youtube.com/watch?v=UFckOenT790" aria-label="Play KTN's Korea University AI Department video">
     <img src="{{ '/images/teampic/ktn-video-preview.jpg' | relative_url }}" alt="" loading="lazy" decoding="async">
   </a>
