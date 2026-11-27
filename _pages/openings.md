@@ -21,6 +21,8 @@ We are currently open for **Undergraduate Interns, MS/PhD, PhD, and postdoc** ap
 
 If you are interested in joining us as an undergraduate intern, M.S./Ph.D. or Ph.D. student, or postdoctoral researcher, please submit our **[application form](https://forms.gle/2WMYz3yTwwaGa4Cr5)**.
 
+Applications are open until **<time datetime="2026-12-14">Dec 14, 2026</time>**. After an internal review of your fit with the lab, we will contact you by email within 1 week of your application.
+
 <div class="winter-internship" markdown="1">
 
 Selected student applicants will join our **Winter Internship**, an 8-week study (<time datetime="2026-12-21">Dec 21, 2026</time> – <time datetime="2027-02-26">Feb 26, 2027</time>).
